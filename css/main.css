@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+a {
+  color: #01758C;
+}
+
+.sidebar {
+  position: fixed;
+  right: 15px;
+  bottom: 30px;
+  width: 50px;
+  font-family: Helvetica, sans-serif;
+}
+.sidebar a {
+  text-decoration: none; 
+}
+.sidebar img {
+  padding: 0 3px;
+  border: 0; 
+}
+.sidebar .profile-photo {
+  padding: 0;
+  margin-right: 2px;
+  border-radius: 13px; 
+  height: 26px;
+  width: 26px;
+}
+.sidebar .name {
+  text-transform: uppercase;
+  margin: 10px 0 20px 0; 
+}
+.sidebar .name #maksim {
+  padding-left: 1px;
+  font-size: 23px;
+  letter-spacing: 5px;
+  color: black; 
+}
+.sidebar .name #stepanenko {
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: black; 
+}
+.sidebar .meta a {
+  margin-left: 5px;
+  color: black; 
+}
+.sidebar .meta a:hover {
+  color: #227ce8; 
+}
+.sidebar .sections {
+  margin: 15px 0 0 0;
+}
+.sidebar .sections a {
+  padding: 3px 0;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  display: block; 
+}
+.sidebar .sections a:hover {
+  color: #227ce8; 
+}
+.sidebar .sections ul {
+  margin: 0;
+  padding: 0;
+}
+.sidebar .sections li {
+  list-style: none;
+  margin-bottom: 7px; 
+}
