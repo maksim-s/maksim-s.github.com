@@ -2,14 +2,15 @@
 layout: layout
 title: Home
 ---
-
-<div id="posts">
-
-  {% for post in site.posts offset: 0 limit: 10 %}
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.date | date_to_string }}
-       {{ post.content }}
-
+<section class="content">
+  <ul class="listing">
+    {% for post in site.posts %}
+    <li>
+      <span>
+        <a href="{{ post.url }}">{{ post.title }}</a> 
+        <p class="date">{{ post.date | date: "%B, %Y" }}</p>
+      </span> 
+    </li>
     {% endfor %}
-
-</div>
+  </ul>
+</section>

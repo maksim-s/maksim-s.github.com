@@ -1,0 +1,39 @@
+---
+layout: layout
+title: "Photography"
+---
+<head>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="/js/photoMosaic/files/js/jquery.photoMosaic.js"></script>
+  <script src="/js/photoMosaic/files/js/jquery.prettyPhoto.js"></script>
+  <script src="/js/photoMosaic/files/data/photoMosaic.data.js"></script>
+  <link rel="stylesheet" href="/js/photoMosaic/files/css/photoMosaic.screen.css" />
+  <link rel="stylesheet" href="/js/photoMosaic/files/css/prettyPhoto.css" />
+</head>
+<section class="content">
+  <h1>Photography</h1>
+  <section class="byline">
+    My photography and iphonography attempts.
+  </section>
+  <section id="galleria"></section>
+  <script>
+    $(document).ready(function(){
+      $('#galleria').photoMosaic({
+        random: true,
+        auto_comuns: true,
+        width: 'auto',
+        height: 'auto',
+        padding: 3,
+        modal_name: 'imgs',
+        modal_group: true,
+        modal_ready_callback: function() {
+          $('a[rel^="imgs"]').prettyPhoto({
+            theme: 'dark_rounded',
+            overlay_gallery: false
+          });
+        }
+      });
+    });
+  </script>
+</section>
+
