@@ -97,6 +97,16 @@
   margin-bottom: 5%;
   margin-top: 5%;
 }
+
+.content .share {
+  margin-top: 40px;
+  margin-bottom: 10%;
+  padding-top: 30px;
+  width: 100%;
+  text-align: right;
+  border-top: 1px solid #969696; 
+
+}
 .content h1 {
   color: #111F33;
   font-family: "Poiret One", sans-serif;
@@ -153,6 +163,11 @@
   border-radius: 3px;
   padding: 2px 3px;
 }
+
+.content pre {
+  padding: 10px;
+
+}
 .content img {
   padding: 3px;
   //border: 1px solid #eeeeee;
@@ -166,7 +181,7 @@
 .content blockquote {
   padding: .25em 1em;
   margin-left: 0px;
-  border-left: 10px solid #32AAFA;
+  border-left: 7px solid #32AAFA;
 }
 .content blockquote p {
   margin-bottom: 0px;
