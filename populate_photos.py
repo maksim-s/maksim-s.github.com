@@ -4,7 +4,7 @@ import requests
 import json
 
 INSTAGRAM_ACCESS_TOKEN = '11136145.1fb234f.5f7f4ffc3f03469eac5f5c5e4b2957da'
-DROPBOX_PATH = '/Users/maksimus16/Dropbox/Public/photos_backup'
+DROPBOX_PATH = '/Users/maksimus16/Dropbox/Public/photos'
 DROPBOX_PUBLIC_LINK = 'https://dl.dropbox.com/u/4515918/photos'
 JSON_FILE_PATH = (
     '/Users/maksimus16/Documents/sites/maksim-s.github.com/js/photoMosaic/files/data/photoMosaic.data.js')

@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+@media all and (max-width: 700px) and (min-width: 500px) {
+  .sidebar {
+    display: none;
+
+  }
+}
+
 .sidebar {
   position: fixed;
   left: 0;
@@ -25,9 +32,9 @@
 }
 
 .profile-photo {
-  height: 120px;
-  width: 120px;
-  border-radius: 60px;
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
 }
 
 .sidebar-name {
