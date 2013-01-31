@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+body {
+  font-size: 100%;
+}
 .sidebar {
   position: fixed;
   left: 0;
@@ -32,7 +35,7 @@
 
 .sidebar-name {
   font-family: 'Poiret One', sans-serif;
-  font-size: 200%;
+  font-size: 2em;
   font-weight: 900;
   letter-spacing: 1px;
   margin: auto;
@@ -51,7 +54,7 @@
 
 .sidebar-social a {
   text-decoration: none;
-  font-size: 22px;
+  font-size: 1.2em;
   color: #969696;
 }
 
@@ -72,7 +75,7 @@
   padding: 3px 0;
   font-family: Helvetica, sans-serif;
   color: #111F33;
-  font-size: 20px;
+  font-size: 1.3em;
   display: block;
   text-decoration: none;
 }
@@ -111,7 +114,7 @@
   color: #111F33;
   font-family: "Poiret One", sans-serif;
   font-weight: 900; 
-  font-size: 40px;
+  font-size: 2.5em;
   margin: 18px 0 5px 0; 
 }
 .content h1 a {
@@ -122,7 +125,7 @@
   color: #111F33;
   font-family: Helvetica, sans-serif;
   font-weight: 500; 
-  font-size: 30px;
+  font-size: 2em;
   margin-bottom: 15px; 
 }
 .content h2 a {
@@ -133,7 +136,7 @@
   color: #111F33;  
   font-family: Helvetica, sans-serif;
   font-weight: 500; 
-  font-size: 22px;
+  font-size: 1.5em;
   padding-bottom: 5px;
   margin-bottom: 5px;
 }
@@ -143,7 +146,7 @@
 }
 .content p {
   color: #111F33;
-  font-size: 16px;
+  font-size: 1em;
   margin-top: 0;
   margin-bottom: 10px;
   line-height: 1.7em;
@@ -157,7 +160,7 @@
   color: #008BE5;
 }
 .content p code {
-  font-size: 12px;
+  font-size: 0.9em;
   background-color: #eeeeee;
   border: 1px solid #777777;
   border-radius: 3px;
@@ -187,7 +190,7 @@
   margin-bottom: 0px;
   color: #111F33;
   font-style: italic;
-  font-size: 15px;
+  font-size: 0.9em;
 }
 .content blockquote cite:before {
   content: '— '; }
@@ -200,7 +203,7 @@
 .content .byline {
   margin-bottom: 40px;
   padding-left: 0px;
-  font-size: 15px;
+  font-size: 0.9em;
   font-weight: 600;
   color: #C4C4C4;
   font-family: "Poiret One", sans-serif;
@@ -214,7 +217,7 @@
   padding: 0; 
 }
 .content .listing li {
-  font-size: 22px;
+  font-size: 1.3em;
   list-style: none;
   padding: 5px 3px;
   margin: 0;
@@ -223,12 +226,13 @@
 }
 
 .content .listing .date {
-  font-size: 15px;
+  font-size: 0.6em;
   color: #C4C4C4;
   font-family: Helvetica, sans-serif;
+
 }
 .content .listing .project-description {
-  font-size: 15px;
+  font-size: 0.8em;
   color: #111F33;
   font-family: Helvetica, sans-serif;
   weight: 400;
@@ -254,11 +258,11 @@
   }
   .sidebar .sidebar-name {
     letter-spacing: 0.5px;
-    font-size: 175%;
+    font-size: 1.75em;
   }
   .sidebar .sidebar-nav a {
     padding: 2px 0;
-    font-size: 17px;
+    font-size: 1.1em;
   }
 
 }
@@ -273,11 +277,11 @@
   }
   .sidebar .sidebar-name {
     letter-spacing: 0.5px;
-    font-size: 150%;
+    font-size: 1.5em;
   }
   .sidebar .sidebar-nav a {
     padding: 2px 0;
-    font-size: 15px;
+    font-size: 1em;
   }
 
 }
@@ -298,17 +302,16 @@
   }
   .sidebar .sidebar-name {
     letter-spacing: 0.5px;
-    font-size: 150%;
+    font-size: 1.5em;
   }
   .sidebar .sidebar-nav a {
     padding: 2px 0;
-    font-size: 15px;
+    font-size: 1em;
   }
   
   .content {
-    width: 95%;
-    margin-bottom: 5%;
-    margin-top: 5%;
+    width: 100%;
+    margin: 0;
   }
 
 }
