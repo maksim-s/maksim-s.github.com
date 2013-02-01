@@ -291,6 +291,8 @@ body {
     height: 80px;
     width: 100%;
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
+    background: rgba(255,255,255,0.95);
+    z-index: 1;
   }
   .sidebar .sidebar-avatar {
     width: 50px;
@@ -301,6 +303,7 @@ body {
     margin: 5px 5px 0 20px;
     position: fixed;
     display: block;
+    z-index: 2;
   }
   .sidebar .sidebar-name {
     display: none;
@@ -311,11 +314,13 @@ body {
     margin-top: 90px;
     margin-left: 8px;
     position: relative;
+    z-index: -1;
   }
   .sidebar-social {
     margin-bottom: 5px;
     position: fixed;
     margin: 60px 5px 0 18px;
+    z-index: 2;    
   }
 
   .sidebar-social a {
@@ -329,6 +334,7 @@ body {
   .sidebar-nav {
     position: fixed;
     margin: 17px 0 0 25%;
+    z-index: 2;
   }
 
   .sidebar-nav a {
