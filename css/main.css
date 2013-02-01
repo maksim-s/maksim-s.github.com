@@ -288,7 +288,7 @@ body {
 @media screen and (max-width: 670px) and (min-width: 200px) {
   .sidebar {
     position: fixed;
-    height: 8%;
+    height: 80px;
     width: 100%;
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
   }
@@ -308,8 +308,7 @@ body {
   
   .content {
     width: 100%;
-    margin: 8% 0 0 0;
-    padding: 0 5px 0 8px; 
+    margin: 80px 5px 5px 8px;
     position: fixed;
   }
   .sidebar-social {
