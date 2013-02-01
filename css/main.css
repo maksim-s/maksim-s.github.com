@@ -314,7 +314,7 @@ body {
     margin-top: 90px;
     margin-left: 8px;
     position: relative;
-    z-index: -1;
+    z-index: 0;
   }
   .sidebar-social {
     margin-bottom: 5px;
@@ -333,7 +333,7 @@ body {
 
   .sidebar-nav {
     position: fixed;
-    margin: 20px 0 0 25%;
+    margin: 20px 0 0 20%;
     z-index: 2;
   }
 
