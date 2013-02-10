@@ -3,6 +3,13 @@
 body {
   font-size: 100%;
 }
+
+#blog-posts {
+  font-size: 1.4em;
+  font-weight: 600;
+  font-family: helvetica;
+  margin: 0;
+}
 .sidebar {
   position: fixed;
   left: 0;
@@ -36,7 +43,7 @@ body {
 .sidebar-name {
   font-family: 'Poiret One', sans-serif;
   font-size: 1.5em;
-  font-weight: 900;
+  font-weight: bolder;
   letter-spacing: 1px;
   margin: auto;
   margin-top: 10px;
@@ -54,7 +61,7 @@ body {
 
 .sidebar-social a {
   text-decoration: none;
-  font-size: 1.1em;
+  font-size: 1.5em;
   color: #969696;
 }
 
@@ -178,7 +185,6 @@ body {
 }
 .content li {
   margin-bottom: 10px;
-  line-height: 1.4em;
   color: #111F33;
 }
 .content blockquote {
@@ -210,6 +216,7 @@ body {
 }
 .content .listing {
   padding: 0;
+  margin: 20px 0 0 0;
   font-family: Helvetica, sans-serif;
 }
 .content .listing ul {
@@ -217,9 +224,9 @@ body {
   padding: 0; 
 }
 .content .listing li {
-  font-size: 1.3em;
+  font-size: 1em;
   list-style: none;
-  padding: 5px 3px;
+  padding: 2px 0 2px 0;
   margin: 0;
   color: #111F33;
   font-weight: 550;
