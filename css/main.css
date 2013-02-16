@@ -6,8 +6,8 @@ body {
 
 #blog-posts {
   font-size: 1.4em;
-  font-weight: 600;
-  font-family: helvetica;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', helvetica;
   margin: 0;
 }
 .sidebar {
@@ -17,9 +17,11 @@ body {
   bottom: 0;
   right: auto;
   width: 12%;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
   box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
   text-align: center;
+  background: white;
+  z-index: 2;
 }
 
 .sidebar-avatar {
@@ -41,10 +43,9 @@ body {
 }
 
 .sidebar-name {
-  font-family: 'Poiret One', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.5em;
-  font-weight: bolder;
-  letter-spacing: 1px;
+  font-weight: normal;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -66,7 +67,7 @@ body {
 }
 
 .sidebar-social a:hover {
-  color: #32AAFA;
+  color: #D93722;
 }
 
 .sidebar-twitter-button {
@@ -80,7 +81,7 @@ body {
 
 .sidebar-nav a {
   padding: 3px 0;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
   color: #111F33;
   font-size: 1.1em;
   display: block;
@@ -88,7 +89,7 @@ body {
 }
 
 .sidebar-nav a:hover {
-  color: #32AAFA;
+  color: #D93722;
 }
 
 .sidebar-nav ul {
@@ -102,10 +103,12 @@ body {
 }
 
 .content {
-  width: 60%;
-  margin-left: 25%;
+  max-width: 650px;
+  width: 50%;
+  margin-left: 30%;
   margin-bottom: 5%;
   margin-top: 5%;
+  z-index: 1;
 }
 
 .content .share {
@@ -119,7 +122,7 @@ body {
 }
 .content h1 {
   color: #111F33;
-  font-family: "Poiret One", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900; 
   font-size: 2.5em;
   margin: 18px 0 5px 0; 
@@ -130,9 +133,9 @@ body {
 }
 .content h2 {
   color: #111F33;
-  font-family: Helvetica, sans-serif;
-  font-weight: 500; 
-  font-size: 2em;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-weight: 700; 
+  font-size: 1.85em;
   margin-bottom: 15px; 
 }
 .content h2 a {
@@ -141,8 +144,8 @@ body {
 }
 .content h3 {
   color: #111F33;  
-  font-family: Helvetica, sans-serif;
-  font-weight: 500; 
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-weight: 600; 
   font-size: 1.5em;
   padding-bottom: 5px;
   margin-bottom: 5px;
@@ -152,20 +155,27 @@ body {
   text-decoration: none; 
 }
 .content p {
-  color: #111F33;
-  font-size: 1em;
-  margin-top: 0;
-  margin-bottom: 10px;
+  color: #444;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-size: 0.95em;
   line-height: 1.7em;
 }
 
+.content *::selection {
+  background: rgba(107, 184, 195, 0.74) !important;
+}
+.content *::-moz-selection {
+  background: rgba(107, 184, 195, 0.74) !important;
+}
+
 .content p a {
-  color: #32AAFA;
+  color: #D93722;
   text-decoration: none; 
 }
 .content p a:hover {
-  color: #008BE5;
+  color: #8D1A0B;
 }
+
 .content p code {
   font-size: 0.9em;
   background-color: #eeeeee;
@@ -190,7 +200,7 @@ body {
 .content blockquote {
   padding: .25em 1em;
   margin-left: 0px;
-  border-left: 7px solid #32AAFA;
+  border-left: 7px solid #D93722;
 }
 .content blockquote p {
   margin-bottom: 0px;
@@ -210,14 +220,15 @@ body {
   margin-bottom: 40px;
   padding-left: 0px;
   font-size: 0.9em;
-  font-weight: 600;
+  font-weight: 300;
+  font-style: italic;
   color: #C4C4C4;
-  font-family: "Poiret One", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .content .listing {
   padding: 0;
   margin: 20px 0 0 0;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 .content .listing ul {
   margin: 0;
@@ -231,34 +242,37 @@ body {
   color: #111F33;
   font-weight: 550;
 }
+#related {
+  margin-top: 50px;
+}
 #related .listing li {
-  font-size: 0.8em;
+  font-size: 0.9em;
   padding: 0;
 }
 #related ul {
   margin: 5px 0 0 0;
 }
 #related .date {
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 #related-posts {
   margin: 0;
   padding: 0;
   font-weight: bold;
-  font-family: Helvetica;
+  font-family: 'Source Sans Pro', Helvetica;
   font-size: 1.1em;
 }
 
 .content .listing .date {
-  font-size: 0.7em;
+  font-size: 0.9em;
   color: #C4C4C4;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
 
 }
 .content .listing .project-description {
   font-size: 0.8em;
   color: #111F33;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
   weight: 400;
 }
 .content .listing a {
@@ -266,7 +280,7 @@ body {
   color: #111F33;
 }
 .content .listing a:hover {
-  color: #32AAFA;
+  color: #D93722;
 }
 
 .content #galleria { 
