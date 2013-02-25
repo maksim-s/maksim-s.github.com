@@ -1,0 +1,337 @@
+/* main.scss */
+
+$sidebar-background: white;
+$text-color: #505759;
+$hover-color: #FF1000;
+$link-color: #D90E00;
+$heading-color: #111F33;
+$byline-color: #C4C4C4;
+$selection-color: rgba(0, 166, 242, 0.64);
+$font-family: 'Source Sans Pro', Helvetica, sans-serif;
+
+/* responsive */
+@mixin respond-to($media) {
+  @if $media == handhelds {
+    @media only screen and (max-width: 600px) { @content; }
+  }
+  @else if $media == medium-screens {
+    @media only screen and (min-width: 601px) and (max-width: 950px) { @content; }
+  }
+}
+
+.sidebar { 
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: auto;
+  width: 12%;
+  font-family: $font-family;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  background: $sidebar-background;
+  z-index: 2;
+  @include respond-to(medium-screens) {
+    width: 115px;
+  }
+  @include respond-to(handhelds) {
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
+    background: rgba(255,255,255,0.95);
+    z-index: 1;
+  }
+  
+  .sidebar-avatar {
+    position: relative;
+    width: 76px;
+    height: 76px;
+    display: inline-block;
+    margin: auto;
+    margin-top: 100%;
+    -moz-border-radius: 38px;
+    -webkit-border-radius: 38px;
+    border-radius: 38px;
+    .profile-photo {
+      height: 100%;
+      width: 100%;
+      border-radius: 100%;
+    }
+    @include respond-to(handhelds) {
+      width: 50px;
+      height: 50px;
+      -moz-border-radius: 25px;
+      -webkit-border-radius: 25px;
+      border-radius: 25px;
+      margin: 5px 5px 0 20px;
+      position: fixed;
+      display: block;
+      z-index: 2;
+    }
+  }
+  .sidebar-name {
+    font-family: $font-family;
+    font-size: 1em;
+    font-weight: normal;
+    margin: auto;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    a {
+      text-decoration: none;
+      color: $heading-color;
+    }
+    @include respond-to(handhelds) {
+      display: none;
+    }
+  }
+  .sidebar-social {
+    margin: auto;
+    margin-bottom: 50px;
+    a {
+      text-decoration: none;
+      font-size: 1.5em;
+      color: $byline-color;
+      &:hover {
+        color: $heading-color;
+      }
+      @include respond-to(handhelds) { 
+        font-size: 0.9em;
+      }
+    }
+    @include respond-to(handhelds) {
+      margin-bottom: 5px;
+      position: fixed;
+      margin: 60px 5px 0 18px;
+      z-index: 2;    
+    }
+  }
+  
+  .sidebar-nav {
+    margin-left: auto;
+    @include respond-to(handhelds) {
+      position: fixed;
+      margin: 20px 0 0 24%;
+      z-index: 2;
+    }
+    a {
+      color: $heading-color;
+      font-size: 1.1em;
+      display: block;
+      text-decoration: none;
+      font-weight: normal;
+      &:hover {
+        color: $link-color;
+      }
+      @include respond-to(handhelds) {
+        padding: 5px;
+        font-size: 1em;
+      }
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      @include respond-to(handhelds) {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        list-style: none;
+        margin-bottom: 10px;
+        @include respond-to(handhelds) {
+          display: inline-block;
+          list-style-type: none;
+        }
+      }
+    }
+  } 
+}
+
+.content {
+  font-family: $font-family;
+  max-width: 650px;
+  width: 50%;
+  margin-left: 30%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  z-index: 1;
+  @include respond-to(medium-screens) {
+    width: 70%;
+    margin-left: 20%;
+  }
+  @include respond-to(handhelds) {
+    width: 92%;
+    margin-top: 90px;
+    margin-left: 8px;
+    position: relative;
+    z-index: 0;
+  }
+  .share {
+    margin-top: 40px;
+    margin-bottom: 10%;
+    padding-top: 30px;
+    width: 100%;
+    text-align: right;
+    border-top: 1px solid $text-color;
+  }
+  h1 {
+    color: $heading-color;
+    font-weight: 900; 
+    font-size: 2.5em;
+    margin: 18px 0 5px 0; 
+    a {
+      color: $heading-color;
+      text-decoration: none; 
+    }
+  }
+  h2 {
+    color: $heading-color;
+    font-weight: 700; 
+    font-size: 1.85em;
+    margin-bottom: 15px; 
+    a {
+      color: $heading-color;
+      text-decoration: none; 
+    }
+  }
+  h3 {
+    color: $heading-color;  
+    font-weight: 600; 
+    font-size: 1.5em;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    a {
+      color: $heading-color;  
+      text-decoration: none; 
+    }
+  }
+  p {
+    color: $text-color;
+    font-size: 0.95em;
+    line-height: 1.7em;
+    a {
+      color: $link-color;
+      text-decoration: none; 
+      &:hover {
+        color: $hover-color;
+      }
+    }
+    code {
+      font-size: 0.9em;
+      background-color: #eeeeee;
+      border: 1px solid #777777;
+      border-radius: 3px;
+      padding: 2px 3px;
+    }
+  }
+  pre {
+    padding: 10px;
+
+  }
+  img {
+    padding: 3px;
+    max-width: 100%; 
+  }
+  li {
+    margin-bottom: 10px;
+    color: #111F33;
+  }
+  blockquote {
+    padding: .25em 1em;
+    margin-left: 0px;
+    border-left: 7px solid $link-color;
+    p {
+      margin-bottom: 0px;
+      color: $text-color;
+      font-style: italic;
+      font-size: 0.9em;
+    }
+    cite {
+      display: block;
+      margin-top: .5em;
+      text-align: right;
+      color: #111;
+      font-style: normal;
+      &:before {
+        content: '— '; 
+      }
+    }
+  }
+  .byline {
+    margin-bottom: 40px;
+    padding-left: 0px;
+    font-size: 0.9em;
+    font-weight: 300;
+    font-style: italic;
+    color: $byline-color;
+  }
+  .listing {
+    padding: 0;
+    margin: 20px 0 0 0;
+    ul {
+      margin: 0;
+      padding: 0; 
+    }
+    li {
+      font-size: 1em;
+      list-style: none;
+      padding: 2px 0 2px 0;
+      margin: 0;
+      color: $text-color;
+      font-weight: 550;
+    }
+    .date {
+      font-size: 0.9em;
+      color: $byline-color;
+    }
+    .project-description {
+      font-size: 0.8em;
+      color: $text-color;
+      weight: 400;
+    }
+    a {
+      text-decoration: none;
+      color: $text-color;
+      &:hover {
+        color: $link-color;
+      }
+    }
+  }
+  #related {
+    margin-top: 50px;
+    .listing li {
+      font-size: 0.9em;
+      padding: 0;
+    }
+    ul {
+      margin: 5px 0 0 0;
+    }
+    .date {
+      font-size: 0.9em;
+    }
+  }
+  #related-posts {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: $heading-color;
+  }
+  #galleria { 
+    width: 100%;
+  }
+  #blog-posts {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0;
+    color: $heading-color;
+  }
+  *::selection {
+    background: $selection-color !important;
+  }
+  *::-moz-selection {
+    background: $selection-color !important;
+  }
+  
+}
