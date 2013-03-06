@@ -25,14 +25,14 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
   top: 0;
   bottom: 0;
   right: auto;
-  width: 12%;
+  width: 200px;
   font-family: $font-family;
   box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
   text-align: center;
   background: $sidebar-background;
   z-index: 2;
   @include respond-to(medium-screens) {
-    width: 115px;
+    width: 145px;
   }
   @include respond-to(handhelds) {
     height: 80px;
@@ -158,7 +158,7 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
   z-index: 1;
   @include respond-to(medium-screens) {
     width: 70%;
-    margin-left: 23%;
+    margin-left: 27%;
   }
   @include respond-to(handhelds) {
     width: 92%;
@@ -178,7 +178,7 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
   h1 {
     color: $heading-color;
     font-weight: 900; 
-    font-size: 2.5em;
+    font-size: 2.369em;
     margin: 18px 0 5px 0; 
     a {
       color: $heading-color;
@@ -188,7 +188,7 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
   h2 {
     color: $heading-color;
     font-weight: 700; 
-    font-size: 1.85em;
+    font-size: 1.777em;
     margin-bottom: 15px; 
     a {
       color: $heading-color;
@@ -198,7 +198,7 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
   h3 {
     color: $heading-color;  
     font-weight: 600; 
-    font-size: 1.5em;
+    font-size: 1.333em;
     padding-bottom: 5px;
     margin-bottom: 5px;
     a {
@@ -208,7 +208,7 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
   }
   p {
     color: $text-color;
-    font-size: 0.95em;
+    font-size: 1em;
     line-height: 1.7em;
     a {
       color: $link-color;
@@ -286,7 +286,7 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
       color: $byline-color;
     }
     .project-description {
-      font-size: 0.8em;
+      font-size: 0.9em;
       color: $text-color;
       weight: 400;
     }
@@ -315,14 +315,14 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.333em;
     color: $heading-color;
   }
   #galleria { 
     width: 100%;
   }
   #blog-posts {
-    font-size: 1.4em;
+    font-size: 1.777em;
     font-weight: bold;
     margin: 0;
     color: $heading-color;

@@ -6,7 +6,7 @@
   top: 0;
   bottom: 0;
   right: auto;
-  width: 12%;
+  width: 200px;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
   text-align: center;
@@ -14,7 +14,7 @@
   z-index: 2; }
   @media only screen and (min-width: 601px) and (max-width: 950px) {
     .sidebar {
-      width: 115px; } }
+      width: 145px; } }
   @media only screen and (max-width: 600px) {
     .sidebar {
       height: 80px;
@@ -125,7 +125,7 @@
   @media only screen and (min-width: 601px) and (max-width: 950px) {
     .content {
       width: 70%;
-      margin-left: 23%; } }
+      margin-left: 27%; } }
   @media only screen and (max-width: 600px) {
     .content {
       width: 92%;
@@ -143,7 +143,7 @@
   .content h1 {
     color: #111f33;
     font-weight: 900;
-    font-size: 2.5em;
+    font-size: 2.369em;
     margin: 18px 0 5px 0; }
     .content h1 a {
       color: #111f33;
@@ -151,7 +151,7 @@
   .content h2 {
     color: #111f33;
     font-weight: 700;
-    font-size: 1.85em;
+    font-size: 1.777em;
     margin-bottom: 15px; }
     .content h2 a {
       color: #111f33;
@@ -159,7 +159,7 @@
   .content h3 {
     color: #111f33;
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 1.333em;
     padding-bottom: 5px;
     margin-bottom: 5px; }
     .content h3 a {
@@ -167,7 +167,7 @@
       text-decoration: none; }
   .content p {
     color: #505759;
-    font-size: 0.95em;
+    font-size: 1em;
     line-height: 1.7em; }
     .content p a {
       color: #d90e00;
@@ -229,7 +229,7 @@
       font-size: 0.9em;
       color: #c4c4c4; }
     .content .listing .project-description {
-      font-size: 0.8em;
+      font-size: 0.9em;
       color: #505759;
       weight: 400; }
     .content .listing a {
@@ -250,12 +250,12 @@
     margin: 0;
     padding: 0;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.333em;
     color: #111f33; }
   .content #galleria {
     width: 100%; }
   .content #blog-posts {
-    font-size: 1.4em;
+    font-size: 1.777em;
     font-weight: bold;
     margin: 0;
     color: #111f33; }
