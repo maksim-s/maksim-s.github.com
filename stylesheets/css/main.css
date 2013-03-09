@@ -260,6 +260,6 @@
     margin: 0;
     color: #111f33; }
   .content *::selection {
-    background: rgba(0, 166, 242, 0.64) !important; }
+    background: rgba(255, 187, 187, 0.92) !important; }
   .content *::-moz-selection {
-    background: rgba(0, 166, 242, 0.64) !important; }
+    background: rgba(255, 187, 187, 0.92) !important; }
