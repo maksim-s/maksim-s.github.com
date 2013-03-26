@@ -26,7 +26,7 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
   right: auto;
   width: 200px;
   font-family: $font-family;
-  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid $byline-color;
   text-align: center;
   background: $sidebar-background;
   z-index: 2;
