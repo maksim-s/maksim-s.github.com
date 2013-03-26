@@ -36,7 +36,7 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
   @include respond-to(handhelds) {
     height: 80px;
     width: 100%;
-    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid $byline-color;
     background: rgba(255,255,255,0.95);
     z-index: 1;
   }
