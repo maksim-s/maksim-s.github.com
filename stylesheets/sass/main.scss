@@ -234,7 +234,9 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
   }
   li {
     margin-bottom: 10px;
-    color: #111F33;
+    font-size: 1em;
+    line-height: 1.7em;
+    color: $text-color;
   }
   blockquote {
     padding: .25em 1em;
