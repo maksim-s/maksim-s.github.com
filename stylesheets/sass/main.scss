@@ -14,7 +14,7 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
     @media only screen and (max-width: 600px) { @content; }
   }
   @else if $media == medium-screens {
-    @media only screen and (min-width: 601px) and (max-width: 950px) { @content; }
+    @media only screen and (max-width: 1000px) { @content; }
   }
 }
 
@@ -30,15 +30,11 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
   background: $sidebar-background;
   z-index: 2;
   
-  //@include respond-to(medium-screens) {
-  //  width: 145px;
-  //}
-  @include respond-to(handhelds) {
-    height: 80px;
+  @include respond-to(medium-screens) {
+    height: 320px;
     width: 100%;
-    border-bottom: 1px solid $byline-color;
-    background: rgba(255,255,255,0.95);
     z-index: 1;
+    position: absolute;
   }
 
   .sidebar-background {
@@ -48,17 +44,39 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position-x: 55%;
+    @include respond-to(medium-screens) {
+      height: 100%;
+      background-size: 100% auto;
+      background-position-y: 85%;
+    }
+
+    @include respond-to(handhelds) {
+      background-size: 120% auto;
+
+    }
   }
 
   .sidebar-profile {
     position: absolute;
     bottom: -215px;
+    left: 15%;
+    right: 15%;
+    @include respond-to(medium-screens) {
+      width: 60%;
+      left: 20%;
+      right: 20%;
+      bottom: -200px;
+    }
+    @include respond-to(handhelds) {
+      width: 85%;
+      left: 8%;
+      right: 8%;
+    }
   }
 
   .sidebar-bio {
     font-size: 0.9em;
-    margin: 0 auto 15px auto;
-    width: 80%;
+    margin-bottom: 15px;
   }
 
   .sidebar-avatar {
@@ -76,17 +94,6 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
       border-radius: 100%;
       border: 2px solid white;
     }
-    @include respond-to(handhelds) {
-      width: 50px;
-      height: 50px;
-      -moz-border-radius: 25px;
-      -webkit-border-radius: 25px;
-      border-radius: 25px;
-      margin: 5px 5px 0 20px;
-      position: fixed;
-      display: block;
-      z-index: 2;
-    }
   }
   .sidebar-name {
     font-family: $font-family;
@@ -99,9 +106,6 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
       text-decoration: none;
       color: $heading-color;
     }
-    @include respond-to(handhelds) {
-      display: none;
-    }
   }
   .sidebar-social {
     margin: auto;
@@ -112,25 +116,11 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
       &:hover {
         color: $heading-color;
       }
-      @include respond-to(handhelds) { 
-        font-size: 0.9em;
-      }
-    }
-    @include respond-to(handhelds) {
-      margin-bottom: 5px;
-      position: fixed;
-      margin: 60px 5px 0 18px;
-      z-index: 2;    
     }
   }
   
   .sidebar-nav {
     margin-left: auto;
-    @include respond-to(handhelds) {
-      position: fixed;
-      margin: 20px 0 0 24%;
-      z-index: 2;
-    }
     a {
       color: $heading-color;
       font-size: 1.1em;
@@ -140,26 +130,13 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
       &:hover {
         color: $link-color;
       }
-      @include respond-to(handhelds) {
-        padding: 5px;
-        font-size: 1em;
-      }
     }
     ul {
       margin: 0;
       padding: 0;
-      @include respond-to(handhelds) {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
       li {
         list-style: none;
         margin-bottom: 10px;
-        @include respond-to(handhelds) {
-          display: inline-block;
-          list-style-type: none;
-        }
       }
     }
   } 
@@ -170,14 +147,9 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
   width: 70%;
   float: right;
   z-index: 1;
-  //@include respond-to(medium-screens) {
-  //  width: 70%;
-  //  margin-left: 27%;
-  //}
-  @include respond-to(handhelds) {
-    width: 92%;
-    margin-top: 90px;
-    margin-left: 8px;
+  @include respond-to(medium-screens) {
+    width: 100%;
+    margin-top: 520px;
     position: relative;
     z-index: 0;
   }
@@ -185,12 +157,18 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
     width: 80%;
     margin: auto;
     margin-top: 50px;
+    @include respond-to(medium-screens) {
+      width: 90%;
+    }
 
   }
 
   .blog-posts {
     padding-top: 10%;
     padding-left: 15%;
+    @include respond-to(medium-screens) {
+      padding: 5% 10%;
+    }
 
   }
   .share {
@@ -206,6 +184,9 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
   .post-content {
     width: 80%;
     margin: auto;
+    @include respond-to(medium-screens) {
+      width: 90%;
+    }
   }
 
   h1 {

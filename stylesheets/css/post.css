@@ -1,0 +1,14 @@
+/* post.scss */
+.sidebar .sidebar-background {
+  background: none !important; }
+  @media only screen and (max-width: 1000px) {
+    .sidebar .sidebar-background {
+      border-bottom: 1px solid #eeeeee; } }
+@media only screen and (max-width: 1000px) {
+  .sidebar .sidebar-profile {
+    top: 35px;
+    bottom: 0; } }
+
+@media only screen and (max-width: 1000px) {
+  .content {
+    margin-top: 315px; } }
