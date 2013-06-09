@@ -24,15 +24,15 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
   top: 0;
   bottom: 0;
   right: auto;
-  width: 200px;
+  width: 30%;
   font-family: $font-family;
-  border-right: 1px solid $byline-color;
   text-align: center;
   background: $sidebar-background;
   z-index: 2;
-  @include respond-to(medium-screens) {
-    width: 145px;
-  }
+  
+  //@include respond-to(medium-screens) {
+  //  width: 145px;
+  //}
   @include respond-to(handhelds) {
     height: 80px;
     width: 100%;
@@ -40,21 +40,41 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
     background: rgba(255,255,255,0.95);
     z-index: 1;
   }
-  
+
+  .sidebar-background {
+    background-image: url(/images/header.jpeg);
+    position: relative;
+    height: 72%;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position-x: 55%;
+  }
+
+  .sidebar-profile {
+    position: absolute;
+    bottom: -31%;
+  }
+
+  .sidebar-bio {
+    font-size: 0.9em;
+    margin: 0 auto 15px auto;
+    width: 80%;
+  }
+
   .sidebar-avatar {
     position: relative;
-    width: 76px;
-    height: 76px;
+    width: 100px;
+    height: 100px;
     display: inline-block;
     margin: auto;
-    margin-top: 100%;
-    -moz-border-radius: 38px;
-    -webkit-border-radius: 38px;
-    border-radius: 38px;
+    -webkit-border-radius: 50px;
+       -moz-border-radius: 50px;
+            border-radius: 50px;
     .profile-photo {
       height: 100%;
       width: 100%;
       border-radius: 100%;
+      border: 2px solid white;
     }
     @include respond-to(handhelds) {
       width: 50px;
@@ -70,10 +90,9 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
   }
   .sidebar-name {
     font-family: $font-family;
-    font-size: 1em;
-    font-weight: normal;
+    font-size: 1.1em;
+    font-weight: bold;
     margin: auto;
-    text-transform: uppercase;
     margin-top: 5px;
     margin-bottom: 15px;
     a {
@@ -86,7 +105,6 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
   }
   .sidebar-social {
     margin: auto;
-    margin-bottom: 50px;
     a {
       text-decoration: none;
       font-size: 1.5em;
@@ -149,22 +167,25 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
 
 .content {
   font-family: $font-family;
-  max-width: 650px;
-  width: 50%;
-  margin-left: 30%;
-  margin-bottom: 5%;
-  margin-top: 5%;
+  width: 70%;
+  float: right;
   z-index: 1;
-  @include respond-to(medium-screens) {
-    width: 70%;
-    margin-left: 27%;
-  }
+  //@include respond-to(medium-screens) {
+  //  width: 70%;
+  //  margin-left: 27%;
+  //}
   @include respond-to(handhelds) {
     width: 92%;
     margin-top: 90px;
     margin-left: 8px;
     position: relative;
     z-index: 0;
+  }
+
+  .blog-posts {
+    padding-top: 10%;
+    padding-left: 15%;
+
   }
   .share {
     margin-top: 40px;

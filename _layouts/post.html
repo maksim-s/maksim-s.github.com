@@ -3,16 +3,17 @@ layout: layout
 ---
 
 <section class="content">
-  <h1>
-    <a href="{{ page.url }}">{{ page.title }}</a>
-  </h1>
-
-  <section class="byline">
-    {{ page.date | date: "%B %e, %Y" }}
-  </section>
-
-  {{ content }}
-
+  <div class="post-title">
+    <h1>
+      <a href="{{ page.url }}">{{ page.title }}</a>
+    </h1>
+    <section class="byline">
+      {{ page.date | date: "%B %e, %Y" }}
+    </section>
+  </div>
+  <div class="post-content">
+    {{ content }}
+  </div>
   <div id="related">
     <p id="related-posts">Related Posts</p>
     <ul class="listing">
