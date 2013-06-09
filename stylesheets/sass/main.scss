@@ -52,7 +52,7 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
 
   .sidebar-profile {
     position: absolute;
-    bottom: -31%;
+    bottom: -215px;
   }
 
   .sidebar-bio {
@@ -181,6 +181,12 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
     position: relative;
     z-index: 0;
   }
+  .post-title {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+
+  }
 
   .blog-posts {
     padding-top: 10%;
@@ -188,13 +194,20 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
 
   }
   .share {
+    margin: auto;
     margin-top: 40px;
     margin-bottom: 10%;
     padding-top: 30px;
-    width: 100%;
+    width: 80%;
     text-align: right;
     border-top: 1px solid $byline-color;
   }
+
+  .post-content {
+    width: 80%;
+    margin: auto;
+  }
+
   h1 {
     color: $heading-color;
     font-weight: 900; 
@@ -323,6 +336,8 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
   }
   #related {
     margin-top: 50px;
+    width: 80%;
+    margin: auto;
     .listing li {
       font-size: 0.9em;
       padding: 0;

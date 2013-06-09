@@ -27,7 +27,7 @@
     background-position-x: 55%; }
   .sidebar .sidebar-profile {
     position: absolute;
-    bottom: -31%; }
+    bottom: -215px; }
   .sidebar .sidebar-bio {
     font-size: 0.9em;
     margin: 0 auto 15px auto;
@@ -134,16 +134,24 @@
       margin-left: 8px;
       position: relative;
       z-index: 0; } }
+  .content .post-title {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px; }
   .content .blog-posts {
     padding-top: 10%;
     padding-left: 15%; }
   .content .share {
+    margin: auto;
     margin-top: 40px;
     margin-bottom: 10%;
     padding-top: 30px;
-    width: 100%;
+    width: 80%;
     text-align: right;
     border-top: 1px solid #c4c4c4; }
+  .content .post-content {
+    width: 80%;
+    margin: auto; }
   .content h1 {
     color: #111f33;
     font-weight: 900;
@@ -245,7 +253,9 @@
       .content .listing a:hover {
         color: #d90e00; }
   .content #related {
-    margin-top: 50px; }
+    margin-top: 50px;
+    width: 80%;
+    margin: auto; }
     .content #related .listing li {
       font-size: 0.9em;
       padding: 0; }
