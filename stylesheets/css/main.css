@@ -19,6 +19,7 @@
       position: absolute; } }
   .sidebar .sidebar-background {
     background-image: url(/images/header.jpeg);
+    background-color: black;
     position: relative;
     height: 72%;
     background-repeat: no-repeat;
@@ -31,7 +32,7 @@
         background-position-y: 85%; } }
     @media only screen and (max-width: 600px) {
       .sidebar .sidebar-background {
-        background-size: 120% auto; } }
+        background-size: 170% auto; } }
   .sidebar .sidebar-profile {
     position: absolute;
     bottom: -215px;
