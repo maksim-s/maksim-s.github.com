@@ -162,11 +162,11 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
     margin-left: 70px;
     @include respond-to(medium-screens) {
       width: 70%;
-      margin-left: auto;
-      margin-right: auto;
     }
     @include respond-to(handhelds) {
       width: 90%;
+      margin-left: auto;
+      margin-right: auto;
     }
 
   }
@@ -189,11 +189,11 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
     border-top: 1px solid $byline-color;
     @include respond-to(medium-screens) {
       width: 70%;
-      margin-left: auto;
-      margin-right: auto;
     }
     @include respond-to(handhelds) {
       width: 90%;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 
@@ -202,11 +202,11 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
     margin-left: 70px;
     @include respond-to(medium-screens) {
       width: 70%;
-      margin-left: auto;
-      margin-right: auto;
     }
     @include respond-to(handhelds) {
       width: 90%;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 
@@ -266,7 +266,11 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
   }
   img {
     padding: 3px;
-    max-width: 100%; 
+    max-width: 150%; 
+    margin-left: -70px;
+    @include respond-to(medium-screens) {
+      margin-left: -85px;      
+    }
   }
   li {
     margin-bottom: 10px;
@@ -352,11 +356,11 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
     }
     @include respond-to(medium-screens) {
       width: 70%;
-      margin-left: auto;
-      margin-right: auto;
     }
     @include respond-to(handhelds) {
       width: 90%;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
   #related-posts {
