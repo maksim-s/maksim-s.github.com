@@ -157,10 +157,15 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
     z-index: 0;
   }
   .post-title {
-    width: 80%;
-    margin: auto;
-    margin-top: 50px;
+    width: 60%;
+    margin-top: 100px;
+    margin-left: 70px;
     @include respond-to(medium-screens) {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    @include respond-to(handhelds) {
       width: 90%;
     }
 
@@ -175,19 +180,32 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
 
   }
   .share {
-    margin: auto;
     margin-top: 40px;
     margin-bottom: 10%;
+    margin-left: 70px;
     padding-top: 30px;
-    width: 80%;
+    width: 60%;
     text-align: right;
     border-top: 1px solid $byline-color;
+    @include respond-to(medium-screens) {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    @include respond-to(handhelds) {
+      width: 90%;
+    }
   }
 
   .post-content {
-    width: 80%;
-    margin: auto;
+    width: 60%;
+    margin-left: 70px;
     @include respond-to(medium-screens) {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    @include respond-to(handhelds) {
       width: 90%;
     }
   }
@@ -320,8 +338,8 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
   }
   #related {
     margin-top: 50px;
-    width: 80%;
-    margin: auto;
+    width: 60%;
+    margin-left: 70px;
     .listing li {
       font-size: 0.9em;
       padding: 0;
@@ -331,6 +349,14 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
     }
     .date {
       font-size: 0.9em;
+    }
+    @include respond-to(medium-screens) {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    @include respond-to(handhelds) {
+      width: 90%;
     }
   }
   #related-posts {

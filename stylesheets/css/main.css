@@ -115,10 +115,15 @@
       position: relative;
       z-index: 0; } }
   .content .post-title {
-    width: 80%;
-    margin: auto;
-    margin-top: 50px; }
+    width: 60%;
+    margin-top: 100px;
+    margin-left: 70px; }
     @media only screen and (max-width: 1000px) {
+      .content .post-title {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto; } }
+    @media only screen and (max-width: 600px) {
       .content .post-title {
         width: 90%; } }
   .content .blog-posts {
@@ -128,17 +133,30 @@
       .content .blog-posts {
         padding: 5% 10%; } }
   .content .share {
-    margin: auto;
     margin-top: 40px;
     margin-bottom: 10%;
+    margin-left: 70px;
     padding-top: 30px;
-    width: 80%;
+    width: 60%;
     text-align: right;
     border-top: 1px solid #c4c4c4; }
-  .content .post-content {
-    width: 80%;
-    margin: auto; }
     @media only screen and (max-width: 1000px) {
+      .content .share {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto; } }
+    @media only screen and (max-width: 600px) {
+      .content .share {
+        width: 90%; } }
+  .content .post-content {
+    width: 60%;
+    margin-left: 70px; }
+    @media only screen and (max-width: 1000px) {
+      .content .post-content {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto; } }
+    @media only screen and (max-width: 600px) {
       .content .post-content {
         width: 90%; } }
   .content h1 {
@@ -243,8 +261,8 @@
         color: #d90e00; }
   .content #related {
     margin-top: 50px;
-    width: 80%;
-    margin: auto; }
+    width: 60%;
+    margin-left: 70px; }
     .content #related .listing li {
       font-size: 0.9em;
       padding: 0; }
@@ -252,6 +270,14 @@
       margin: 5px 0 0 0; }
     .content #related .date {
       font-size: 0.9em; }
+    @media only screen and (max-width: 1000px) {
+      .content #related {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto; } }
+    @media only screen and (max-width: 600px) {
+      .content #related {
+        width: 90%; } }
   .content #related-posts {
     margin: 0;
     padding: 0;
