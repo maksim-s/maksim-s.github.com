@@ -269,7 +269,7 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
     max-width: 150%; 
     margin-left: -70px;
     @include respond-to(medium-screens) {
-      margin-left: -85px;      
+      margin-left: -80px;      
     }
   }
   li {
