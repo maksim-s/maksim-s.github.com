@@ -261,13 +261,14 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
     }
   }
   pre {
-    padding: 10px;
-
+    padding: 15px 0;
+    overflow: scroll;
   }
   img {
     padding: 3px;
     max-width: 150%; 
     margin-left: -70px;
+    width: 150%;
     @include respond-to(medium-screens) {
       margin-left: -80px;      
     }
