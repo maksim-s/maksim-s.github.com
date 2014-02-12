@@ -1,14 +1,15 @@
 ---
 layout: layout
-title: Home
+title: Maksim Stepanenko
 ---
-<section class="content">
-  <div class="blog-posts">
-  <p id="blog-posts">Blog Posts</p>
-    <ul class="listing">
-      {% for post in site.posts %}
-      <li><span class="date">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-</section>
+<div class="blog-posts">
+  <ul class="listing">
+    {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="date">{{ post.date | date_to_string }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+

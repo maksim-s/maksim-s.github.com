@@ -1,33 +1,37 @@
 ---
 layout: layout
 ---
-<link rel="stylesheet" href="/stylesheets/css/post.css" />
-<section class="content">
-  <div class="post-title">
-    <h1>
-      <a href="{{ page.url }}">{{ page.title }}</a>
-    </h1>
-    <section class="byline">
-      {{ page.date | date: "%B %e, %Y" }}
-    </section>
-  </div>
-  <div class="post-content">
-    {{ content }}
-  </div>
-  <div id="related">
-    <p id="related-posts">Related Posts</p>
-    <ul class="listing">
-      {% for post in site.related_posts limit:3 %}
-        <li><span class="date">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-  <div class="share">
-    <a href="https://twitter.com/share" class="twitter-share-button" data-via="maksim_s">
-      Tweet
-    </a>
-  </div>
-    <script>
-      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-    </script>
-</section>
+
+<div class="container post-title">
+  <h1>
+    <a href="{{ page.url }}">{{ page.title }}</a>
+  </h1>
+  <section class="byline">
+    {{ page.date | date: "%B %e, %Y" }}
+  </section>
+</div>
+
+<div class="container post-content">
+  {{ content }}
+</div>
+
+<div class="container related-posts">
+  <p class="related-posts-title">Related Posts</p>
+  <ul class="listing">
+    {% for post in site.related_posts limit:3 %}
+    <li>
+      <span class="date">{{ post.date | date_to_string }}</span>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="container share">
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="maksim_s">
+    Tweet
+  </a>
+</div>
+<script>
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>

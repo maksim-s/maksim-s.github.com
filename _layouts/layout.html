@@ -30,28 +30,30 @@
     </script>
     </head>
   <body onload="prettyPrint()">
-    <header class="sidebar">
-      <div class="sidebar-background">
-        <div class="sidebar-profile">
-          <div class="sidebar-avatar">
-            <a href="/">
-              <img src="/images/profile.jpeg" class="profile-photo"/>
-            </a>
-          </div>
-          <h2 class="sidebar-name">
-            <a href="/">@maksim_s</a>
-          </h2>
-          <div class="sidebar-bio">
-            Kyrgyz transplant. Studied computer science and taekwondo at MIT. Currently building and breaking things at Locu.
-          </div>
-          <div class="sidebar-social">
-            <a href="https://twitter.com/maksim_s" target="_blank"><i class="ss-icon ss-social-circle">&#xF611;</i></a>
-            <a href="https://github.com/maksim-s" target="_blank"><i class="ss-icon ss-social-circle">&#xF671;</i></a>
-            <a href="http://feeds.feedburner.com/MaksimStepanenko" target="_blank"><i class="ss-icon ss-social-circle">&#xE310;</i></a>
-          </div>
+    <header class='header'>
+      <a class='name' href='/'>@maksim_s</a>
+    </header>
+    <article class='content'>
+      {{ content }}
+    </article>
+    <footer class='footer'>
+      <div class='container'>
+        <div class='hz-line'></div>
+        <div class='social'>
+          <a href="https://twitter.com/maksim_s"
+             target="_blank">
+             <i class="ss-icon ss-social-circle">&#xF611;</i>
+          </a>
+          <a href="https://github.com/maksim-s"
+             target="_blank">
+            <i class="ss-icon ss-social-circle">&#xF671;</i>
+          </a>
+          <a href="http://feeds.feedburner.com/MaksimStepanenko"
+             target="_blank">
+            <i class="ss-icon ss-social-circle">&#xE310;</i>
+          </a>
         </div>
       </div>
-    </header>
-    {{ content }}
+    </footer>
   </body>
 </html>

@@ -1,164 +1,104 @@
 /* main.scss */
 /* responsive */
-.sidebar {
-  position: fixed;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: auto;
-  width: 30%;
+html, body {
+  height: 100%; }
+
+.header {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   text-align: center;
-  background: white;
-  z-index: 2; }
-  @media only screen and (max-width: 1000px) {
-    .sidebar {
-      height: 320px;
-      width: 100%;
-      z-index: 1;
-      position: absolute; } }
-  .sidebar .sidebar-background {
-    background-image: url(/images/header.jpeg);
-    background-color: black;
-    position: relative;
-    height: 72%;
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    background-position-x: 55%; }
-    @media only screen and (max-width: 1000px) {
-      .sidebar .sidebar-background {
-        height: 100%;
-        background-size: 100% auto;
-        background-position-y: 85%; } }
-    @media only screen and (max-width: 600px) {
-      .sidebar .sidebar-background {
-        background-size: 170% auto; } }
-  .sidebar .sidebar-profile {
-    position: absolute;
-    bottom: -215px;
-    left: 15%;
-    right: 15%; }
-    @media only screen and (max-width: 1000px) {
-      .sidebar .sidebar-profile {
-        width: 60%;
-        left: 20%;
-        right: 20%;
-        bottom: -200px; } }
-    @media only screen and (max-width: 600px) {
-      .sidebar .sidebar-profile {
-        width: 85%;
-        left: 8%;
-        right: 8%; } }
-  .sidebar .sidebar-bio {
-    font-size: 0.9em;
-    margin-bottom: 15px; }
-  .sidebar .sidebar-avatar {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-    margin: auto;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    border-radius: 100%;
-    border: 2px solid white; }
-    .sidebar .sidebar-avatar .profile-photo {
-      height: 100%;
-      width: 100%;
-      -webkit-border-radius: 100%;
-      -moz-border-radius: 100%;
-      border-radius: 100%; }
-  .sidebar .sidebar-name {
+  height: 10%;
+  padding-top: 10%; }
+  @media only screen and (max-width: 600px) {
+    .header {
+      margin: auto; } }
+  .header .name {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-size: 1.1em;
+    font-size: 1.777em;
     font-weight: bold;
-    margin: auto;
-    margin-top: 5px;
-    margin-bottom: 15px; }
-    .sidebar .sidebar-name a {
-      text-decoration: none;
-      color: #111f33; }
-  .sidebar .sidebar-social {
-    margin: auto; }
-    .sidebar .sidebar-social a {
-      text-decoration: none;
-      font-size: 1.5em;
-      color: #c4c4c4; }
-      .sidebar .sidebar-social a:hover {
-        color: #111f33; }
-  .sidebar .sidebar-nav {
+    text-decoration: none;
+    color: #111f33; }
+  .header .nav {
     margin-left: auto; }
-    .sidebar .sidebar-nav a {
+    .header .nav a {
       color: #111f33;
       font-size: 1.1em;
       display: block;
       text-decoration: none;
       font-weight: normal; }
-      .sidebar .sidebar-nav a:hover {
+      .header .nav a:hover {
         color: #d90e00; }
-    .sidebar .sidebar-nav ul {
+    .header .nav ul {
       margin: 0;
       padding: 0; }
-      .sidebar .sidebar-nav ul li {
+      .header .nav ul li {
         list-style: none;
         margin-bottom: 10px; }
 
+.footer {
+  height: 15%; }
+  .footer .hz-line {
+    background: #c4c4c4;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(#cccccc), to(rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #cccccc, rgba(255, 255, 255, 0));
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #cccccc, rgba(255, 255, 255, 0));
+    height: 1px;
+    margin: 30px 0; }
+  .footer .social {
+    margin: auto;
+    width: 115px; }
+    .footer .social a {
+      text-decoration: none;
+      font-size: 1.5em;
+      color: #c4c4c4;
+      margin: 0 5px; }
+      .footer .social a:hover {
+        color: #111f33; }
+
+.container {
+  width: 45%;
+  min-width: 650px;
+  margin: auto; }
+  @media only screen and (max-width: 1000px) {
+    .container {
+      width: 70%;
+      min-width: 100px; } }
+  @media only screen and (max-width: 600px) {
+    .container {
+      width: 90%;
+      min-width: 100px; } }
+
 .content {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
-  width: 70%;
-  float: right;
-  z-index: 1; }
-  @media only screen and (max-width: 1000px) {
-    .content {
-      width: 100%;
-      margin-top: 520px;
-      position: relative;
-      z-index: 0; } }
-  .content .post-title {
-    width: 60%;
-    margin-top: 100px;
-    margin-left: 70px; }
-    @media only screen and (max-width: 1000px) {
-      .content .post-title {
-        width: 70%; } }
-    @media only screen and (max-width: 600px) {
-      .content .post-title {
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto; } }
+  margin: auto; }
   .content .blog-posts {
-    padding-top: 10%;
-    padding-left: 15%; }
-    @media only screen and (max-width: 1000px) {
+    width: 45%;
+    min-width: 500px;
+    margin: auto; }
+    @media only screen and (max-width: 600px) {
       .content .blog-posts {
-        padding: 5% 10%; } }
+        width: 98%;
+        min-width: 250px; } }
   .content .share {
     margin-top: 40px;
     margin-bottom: 10%;
-    margin-left: 70px;
     padding-top: 30px;
-    width: 60%;
     text-align: right;
     border-top: 1px solid #c4c4c4; }
-    @media only screen and (max-width: 1000px) {
-      .content .share {
-        width: 70%; } }
-    @media only screen and (max-width: 600px) {
-      .content .share {
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto; } }
-  .content .post-content {
-    width: 60%;
-    margin-left: 70px; }
-    @media only screen and (max-width: 1000px) {
-      .content .post-content {
-        width: 70%; } }
-    @media only screen and (max-width: 600px) {
-      .content .post-content {
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto; } }
+  .content .related-posts {
+    margin-top: 50px; }
+    .content .related-posts .listing li {
+      font-size: 0.9em;
+      padding: 0; }
+    .content .related-posts ul {
+      margin: 5px 0 0 0; }
+    .content .related-posts .date {
+      font-size: 0.9em; }
+    .content .related-posts .related-posts-title {
+      margin: 0;
+      padding: 0;
+      font-weight: bold;
+      font-size: 1.333em;
+      color: #111f33; }
   .content h1 {
     color: #111f33;
     font-weight: 900;
@@ -204,12 +144,12 @@
     overflow: scroll; }
   .content img {
     padding: 3px;
-    max-width: 150%;
-    margin-left: -70px;
-    width: 150%; }
-    @media only screen and (max-width: 1000px) {
+    margin-left: -15%;
+    width: 130%; }
+    @media only screen and (max-width: 600px) {
       .content img {
-        margin-left: -80px; } }
+        margin-left: -7%;
+        width: 113%; } }
   .content li {
     margin-bottom: 10px;
     font-size: 1em;
@@ -248,14 +188,14 @@
     .content .listing li {
       font-size: 1em;
       list-style: none;
-      padding: 2px 0 2px 0;
+      padding: 3px 0;
       margin: 0;
       color: #505759;
-      font-weight: 550;
       line-height: 1.3em; }
     .content .listing .date {
       font-size: 0.9em;
-      color: #c4c4c4; }
+      color: #c4c4c4;
+      float: right; }
     .content .listing .project-description {
       font-size: 0.9em;
       color: #505759;
@@ -265,35 +205,3 @@
       color: #505759; }
       .content .listing a:hover {
         color: #d90e00; }
-  .content #related {
-    margin-top: 50px;
-    width: 60%;
-    margin-left: 70px; }
-    .content #related .listing li {
-      font-size: 0.9em;
-      padding: 0; }
-    .content #related ul {
-      margin: 5px 0 0 0; }
-    .content #related .date {
-      font-size: 0.9em; }
-    @media only screen and (max-width: 1000px) {
-      .content #related {
-        width: 70%; } }
-    @media only screen and (max-width: 600px) {
-      .content #related {
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto; } }
-  .content #related-posts {
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-    font-size: 1.333em;
-    color: #111f33; }
-  .content #galleria {
-    width: 100%; }
-  .content #blog-posts {
-    font-size: 1.777em;
-    font-weight: bold;
-    margin: 0;
-    color: #111f33; }
