@@ -6,36 +6,17 @@ html, body {
 .header {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   text-align: center;
-  height: 10%;
-  padding-top: 10%; }
-  @media only screen and (max-width: 600px) {
-    .header {
-      margin: auto; } }
+  height: 40px;
+  margin: 60px auto; }
   .header .name {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-size: 1.777em;
     font-weight: bold;
     text-decoration: none;
     color: #111f33; }
-  .header .nav {
-    margin-left: auto; }
-    .header .nav a {
-      color: #111f33;
-      font-size: 1.1em;
-      display: block;
-      text-decoration: none;
-      font-weight: normal; }
-      .header .nav a:hover {
-        color: #d90e00; }
-    .header .nav ul {
-      margin: 0;
-      padding: 0; }
-      .header .nav ul li {
-        list-style: none;
-        margin-bottom: 10px; }
 
 .footer {
-  height: 15%; }
+  height: 80px; }
   .footer .hz-line {
     background: #c4c4c4;
     background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(#cccccc), to(rgba(255, 255, 255, 0)));
@@ -49,10 +30,8 @@ html, body {
     .footer .social a {
       text-decoration: none;
       font-size: 1.5em;
-      color: #c4c4c4;
+      color: #505759;
       margin: 0 5px; }
-      .footer .social a:hover {
-        color: #111f33; }
 
 .container {
   width: 45%;
@@ -69,7 +48,8 @@ html, body {
 
 .content {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
-  margin: auto; }
+  margin: auto;
+  margin-bottom: 100px; }
   .content .blog-posts {
     width: 45%;
     min-width: 500px;
@@ -78,27 +58,6 @@ html, body {
       .content .blog-posts {
         width: 98%;
         min-width: 250px; } }
-  .content .share {
-    margin-top: 40px;
-    margin-bottom: 10%;
-    padding-top: 30px;
-    text-align: right;
-    border-top: 1px solid #c4c4c4; }
-  .content .related-posts {
-    margin-top: 50px; }
-    .content .related-posts .listing li {
-      font-size: 0.9em;
-      padding: 0; }
-    .content .related-posts ul {
-      margin: 5px 0 0 0; }
-    .content .related-posts .date {
-      font-size: 0.9em; }
-    .content .related-posts .related-posts-title {
-      margin: 0;
-      padding: 0;
-      font-weight: bold;
-      font-size: 1.333em;
-      color: #111f33; }
   .content h1 {
     color: #111f33;
     font-weight: 900;
@@ -196,12 +155,8 @@ html, body {
       font-size: 0.9em;
       color: #c4c4c4;
       float: right; }
-    .content .listing .project-description {
-      font-size: 0.9em;
-      color: #505759;
-      weight: 400; }
     .content .listing a {
       text-decoration: none;
-      color: #505759; }
+      color: #111f33; }
       .content .listing a:hover {
         color: #d90e00; }

@@ -24,11 +24,8 @@ html, body {
 .header { 
   font-family: $font-family;
   text-align: center;
-  height: 10%;
-  padding-top: 10%;
-  @include respond-to(handhelds) {
-    margin: auto;
-  }
+  height: 40px;
+  margin: 60px auto;
 
   .name {
     font-family: $font-family;
@@ -37,33 +34,10 @@ html, body {
     text-decoration: none;
     color: $heading-color;
   }
-
-  
-  .nav {
-    margin-left: auto;
-    a {
-      color: $heading-color;
-      font-size: 1.1em;
-      display: block;
-      text-decoration: none;
-      font-weight: normal;
-      &:hover {
-        color: $link-color;
-      }
-    }
-    ul {
-      margin: 0;
-      padding: 0;
-      li {
-        list-style: none;
-        margin-bottom: 10px;
-      }
-    }
-  } 
 }
 
 .footer {
-  height: 15%;
+  height: 80px;
   .hz-line {
     background: $byline-color;
     background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0)),color-stop(#ccc),to(rgba(255,255,255,0)));
@@ -78,11 +52,8 @@ html, body {
     a {
       text-decoration: none;
       font-size: 1.5em;
-      color: $byline-color;
+      color: $text-color;
       margin: 0 5px;
-      &:hover {
-        color: $heading-color;
-      }
     }
   }
 }
@@ -104,6 +75,7 @@ html, body {
 .content {
   font-family: $font-family;
   margin: auto;
+  margin-bottom: 100px;
 
   .blog-posts {
     width: 45%;
@@ -112,36 +84,6 @@ html, body {
     @include respond-to(handhelds) {
       width: 98%;
       min-width: 250px;
-    }
-  }
-
-  
-  .share {
-    margin-top: 40px;
-    margin-bottom: 10%;
-    padding-top: 30px;
-    text-align: right;
-    border-top: 1px solid $byline-color;
-  }
-  
-  .related-posts {
-    margin-top: 50px;
-    .listing li {
-      font-size: 0.9em;
-      padding: 0;
-    }
-    ul {
-      margin: 5px 0 0 0;
-    }
-    .date {
-      font-size: 0.9em;
-    }
-    .related-posts-title {
-      margin: 0;
-      padding: 0;
-      font-weight: bold;
-      font-size: 1.333em;
-      color: $heading-color;
     }
   }
 
@@ -263,14 +205,9 @@ html, body {
       color: $byline-color;
       float: right;
     }
-    .project-description {
-      font-size: 0.9em;
-      color: $text-color;
-      weight: 400;
-    }
     a {
       text-decoration: none;
-      color: $text-color;
+      color: $heading-color;
       &:hover {
         color: $link-color;
       }
