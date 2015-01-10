@@ -1,3 +1,3 @@
-maksim-s.github.com
+maksim.ms
 ===================
-maksims.me
+maksim.ms
