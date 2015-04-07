@@ -1,11 +1,9 @@
 /* main.scss */
 
-$text-color: #505759;
-$hover-color: #FF1000;
-$link-color: #D90E00;
-$heading-color: #111F33;
-$byline-color: #C4C4C4;
-$font-family: 'Source Sans Pro', Helvetica, sans-serif;
+$text-color: #333333;
+$link-color: #111111;
+$background-color: #ffffff;
+$font-family: menlo,'andale mono','courier new',sans-serif;
 
 /* responsive */
 @mixin respond-to($media) {
@@ -19,48 +17,52 @@ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
 
 html, body {
   height: 100%;
+  background: $background-color;
+  color: $text-color;
+  font: normal 11px $font-family;
+  line-height: 155%;
+
+  a {
+    color: $link-color;
+    &:hover {
+      text-decoration: none;
+      color: $link-color;
+    }
+  }
 }
 
 .header { 
   font-family: $font-family;
   text-align: center;
-  height: 40px;
-  margin: 60px auto;
+  height: 110px;
+  margin: 64px auto;
+  font-style: normal;
+  font-variant: normal;
+  color: $link-color;
 
   .name {
-    font-family: $font-family;
-    font-size: 1.777em;
     font-weight: bold;
     text-decoration: none;
-    color: $heading-color;
+    color: $link-color;
+    text-transform: uppercase;
   }
-}
 
-.footer {
-  height: 80px;
-  .hz-line {
-    background: $byline-color;
-    background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0)),color-stop(#ccc),to(rgba(255,255,255,0)));
-    background: -webkit-linear-gradient(left,rgba(255,255,255,0),#ccc,rgba(255,255,255,0));
-    background: linear-gradient(to right,rgba(255,255,255,0),#ccc,rgba(255,255,255,0));
-    height: 1px;
-    margin: 30px 0;
-  }
-  .social {
-    margin: auto;
-    width: 115px;
-    a {
-      text-decoration: none;
-      font-size: 1.5em;
-      color: $text-color;
-      margin: 0 5px;
+  .pages {
+    margin: 0;
+    padding: 0;
+    margin-top: 64px;
+    list-style-type: none;
+
+    li {
+      display: inline;
+      margin: 0 20px;
     }
   }
 }
 
 .container {
-  width: 45%;
-  min-width: 650px;
+  width: 40%;
+  min-width: 550px;
   margin: auto;
   @include respond-to(medium-screens) {
     width: 70%;
@@ -73,144 +75,15 @@ html, body {
 }
 
 .content {
-  font-family: $font-family;
   margin: auto;
   margin-bottom: 100px;
-
-  .blog-posts {
-    width: 45%;
-    min-width: 500px;
-    margin: auto;
-    @include respond-to(handhelds) {
-      width: 98%;
-      min-width: 250px;
-    }
+  .section {
+    margin-bottom: 25px;
   }
-
-  h1 {
-    color: $heading-color;
-    font-weight: 900; 
-    font-size: 2.369em;
-    margin: 18px 0 5px 0; 
-    a {
-      color: $heading-color;
-      text-decoration: none; 
-    }
-  }
-  h2 {
-    color: $heading-color;
-    font-weight: 700; 
-    font-size: 1.777em;
-    margin-bottom: 15px; 
-    a {
-      color: $heading-color;
-      text-decoration: none; 
-    }
-  }
-  h3 {
-    color: $heading-color;  
-    font-weight: 600; 
-    font-size: 1.333em;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
-    a {
-      color: $heading-color;  
-      text-decoration: none; 
-    }
-  }
-  p {
-    color: $text-color;
-    font-size: 1em;
-    line-height: 1.7em;
-    a {
-      color: $link-color;
-      text-decoration: none; 
-      &:hover {
-        color: $hover-color;
-      }
-    }
-    code {
-      font-size: 0.9em;
-      background-color: #eeeeee;
-      border: 1px solid #777777;
-      border-radius: 3px;
-      padding: 2px 3px;
-    }
-  }
-  pre {
-    padding: 15px 0;
-    overflow: scroll;
-  }
-  img {
-    padding: 3px;
-    margin-left: -15%;
-    width: 130%;
-    @include respond-to(handhelds) {
-      margin-left: -7%;
-      width: 113%;
-    }
-  }
-  li {
-    margin-bottom: 10px;
-    font-size: 1em;
-    line-height: 1.7em;
-    color: $text-color;
-  }
-  blockquote {
-    padding: .25em 1em;
-    margin-left: 0px;
-    border-left: 7px solid $link-color;
-    p {
-      margin-bottom: 0px;
-      color: $text-color;
-      font-style: italic;
-      font-size: 0.9em;
-    }
-    cite {
-      display: block;
-      margin-top: .5em;
-      text-align: right;
-      color: #111;
-      font-style: normal;
-      &:before {
-        content: '— '; 
-      }
-    }
-  }
-  .byline {
-    margin-bottom: 40px;
-    padding-left: 0px;
-    font-size: 0.9em;
-    font-weight: 300;
-    font-style: italic;
-    color: $byline-color;
-  }
-  .listing {
-    padding: 0;
-    margin: 20px 0 0 0;
-    ul {
-      margin: 0;
-      padding: 0; 
-    }
+  ul {
     li {
-      font-size: 1em;
-      list-style: none;
-      padding: 3px 0;
-      margin: 0;
-      color: $text-color;
-      line-height: 1.3em;
-    }
-    .date {
-      font-size: 0.9em;
-      color: $byline-color;
-      float: right;
-    }
-    a {
-      text-decoration: none;
-      color: $heading-color;
-      &:hover {
-        color: $link-color;
-      }
+      list-style-type: disc;
+      list-style-position: outside;
     }
   }
 }

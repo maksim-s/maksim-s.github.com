@@ -1,41 +1,42 @@
 /* main.scss */
 /* responsive */
 html, body {
-  height: 100%; }
+  height: 100%;
+  background: #ffffff;
+  color: #333333;
+  font: normal 11px menlo, "andale mono", "courier new", sans-serif;
+  line-height: 155%; }
+  html a, body a {
+    color: #111111; }
+    html a:hover, body a:hover {
+      text-decoration: none;
+      color: #111111; }
 
 .header {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: menlo, "andale mono", "courier new", sans-serif;
   text-align: center;
-  height: 40px;
-  margin: 60px auto; }
+  height: 110px;
+  margin: 64px auto;
+  font-style: normal;
+  font-variant: normal;
+  color: #111111; }
   .header .name {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-size: 1.777em;
     font-weight: bold;
     text-decoration: none;
-    color: #111f33; }
-
-.footer {
-  height: 80px; }
-  .footer .hz-line {
-    background: #c4c4c4;
-    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(#cccccc), to(rgba(255, 255, 255, 0)));
-    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #cccccc, rgba(255, 255, 255, 0));
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), #cccccc, rgba(255, 255, 255, 0));
-    height: 1px;
-    margin: 30px 0; }
-  .footer .social {
-    margin: auto;
-    width: 115px; }
-    .footer .social a {
-      text-decoration: none;
-      font-size: 1.5em;
-      color: #505759;
-      margin: 0 5px; }
+    color: #111111;
+    text-transform: uppercase; }
+  .header .pages {
+    margin: 0;
+    padding: 0;
+    margin-top: 64px;
+    list-style-type: none; }
+    .header .pages li {
+      display: inline;
+      margin: 0 20px; }
 
 .container {
-  width: 45%;
-  min-width: 650px;
+  width: 40%;
+  min-width: 550px;
   margin: auto; }
   @media only screen and (max-width: 1000px) {
     .container {
@@ -47,116 +48,12 @@ html, body {
       min-width: 100px; } }
 
 .content {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
   margin: auto;
   margin-bottom: 100px; }
-  .content .blog-posts {
-    width: 45%;
-    min-width: 500px;
-    margin: auto; }
-    @media only screen and (max-width: 600px) {
-      .content .blog-posts {
-        width: 98%;
-        min-width: 250px; } }
-  .content h1 {
-    color: #111f33;
-    font-weight: 900;
-    font-size: 2.369em;
-    margin: 18px 0 5px 0; }
-    .content h1 a {
-      color: #111f33;
-      text-decoration: none; }
-  .content h2 {
-    color: #111f33;
-    font-weight: 700;
-    font-size: 1.777em;
-    margin-bottom: 15px; }
-    .content h2 a {
-      color: #111f33;
-      text-decoration: none; }
-  .content h3 {
-    color: #111f33;
-    font-weight: 600;
-    font-size: 1.333em;
-    padding-bottom: 5px;
-    margin-bottom: 5px; }
-    .content h3 a {
-      color: #111f33;
-      text-decoration: none; }
-  .content p {
-    color: #505759;
-    font-size: 1em;
-    line-height: 1.7em; }
-    .content p a {
-      color: #d90e00;
-      text-decoration: none; }
-      .content p a:hover {
-        color: #ff1000; }
-    .content p code {
-      font-size: 0.9em;
-      background-color: #eeeeee;
-      border: 1px solid #777777;
-      border-radius: 3px;
-      padding: 2px 3px; }
-  .content pre {
-    padding: 15px 0;
-    overflow: scroll; }
-  .content img {
-    padding: 3px;
-    margin-left: -15%;
-    width: 130%; }
-    @media only screen and (max-width: 600px) {
-      .content img {
-        margin-left: -7%;
-        width: 113%; } }
-  .content li {
-    margin-bottom: 10px;
-    font-size: 1em;
-    line-height: 1.7em;
-    color: #505759; }
-  .content blockquote {
-    padding: 0.25em 1em;
-    margin-left: 0px;
-    border-left: 7px solid #d90e00; }
-    .content blockquote p {
-      margin-bottom: 0px;
-      color: #505759;
-      font-style: italic;
-      font-size: 0.9em; }
-    .content blockquote cite {
-      display: block;
-      margin-top: .5em;
-      text-align: right;
-      color: #111;
-      font-style: normal; }
-      .content blockquote cite:before {
-        content: '— '; }
-  .content .byline {
-    margin-bottom: 40px;
-    padding-left: 0px;
-    font-size: 0.9em;
-    font-weight: 300;
-    font-style: italic;
-    color: #c4c4c4; }
-  .content .listing {
-    padding: 0;
-    margin: 20px 0 0 0; }
-    .content .listing ul {
-      margin: 0;
-      padding: 0; }
-    .content .listing li {
-      font-size: 1em;
-      list-style: none;
-      padding: 3px 0;
-      margin: 0;
-      color: #505759;
-      line-height: 1.3em; }
-    .content .listing .date {
-      font-size: 0.9em;
-      color: #c4c4c4;
-      float: right; }
-    .content .listing a {
-      text-decoration: none;
-      color: #111f33; }
-      .content .listing a:hover {
-        color: #d90e00; }
+  .content .section {
+    margin-bottom: 25px; }
+  .content ul li {
+    list-style-type: disc;
+    list-style-position: outside; }
+
+/*# sourceMappingURL=main.css.map */
