@@ -61,7 +61,7 @@ html, body {
 }
 
 .container {
-  width: 40%;
+  width: 32%;
   min-width: 550px;
   margin: auto;
   @include respond-to(medium-screens) {
@@ -71,6 +71,15 @@ html, body {
   @include respond-to(handhelds) {
     width: 90%;
     min-width: 100px;
+  }
+}
+
+.posts {
+  a {
+    text-decoration: none;
+  }
+  .post {
+    margin-bottom: 50px;
   }
 }
 

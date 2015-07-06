@@ -35,7 +35,7 @@ html, body {
       margin: 0 20px; }
 
 .container {
-  width: 40%;
+  width: 32%;
   min-width: 550px;
   margin: auto; }
   @media only screen and (max-width: 1000px) {
@@ -46,6 +46,11 @@ html, body {
     .container {
       width: 90%;
       min-width: 100px; } }
+
+.posts a {
+  text-decoration: none; }
+.posts .post {
+  margin-bottom: 50px; }
 
 .content {
   margin: auto;

@@ -1,0 +1,19 @@
+---
+layout: default
+title: Blog
+description: "Blog"
+---
+
+<div class='container posts'>
+{% for post in site.posts %}
+  <div class='post'>
+    <h3 class='title'><a href='{{ post.url }}'>{{ post.title }}</a></h3>
+    <a href='{{ post.url }}'>
+      <div class='entry'>
+        {{ post.content | strip_html | truncatewords: 50 }}
+      </div>
+    </a>
+  </div>
+{% endfor %}
+
+</div>
