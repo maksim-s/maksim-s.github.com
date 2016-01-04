@@ -1,6 +1,8 @@
 ---
-layout: post
+layout: book
 title: The Art Spirit
+category: book
+rating: 9
 ---
 
 Following [Jack Dorsey's mysterious talk at the Startup School 2013](https://www.youtube.com/watch?v=wEQawgkCMOU), I decided to read one of the books that he recommended, ["The Art Spirit" by Robert Henri](http://www.amazon.com/gp/product/B0095XK8FA/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0095XK8FA&linkCode=as2&tag=maksistepa-20). I must say that even though I was never a big art appreciator and never really understood art beyond finding some paintings cool and others not-that-cool, I had a great time reading this book. It opened my eyes to a lot of things that go through an artist's mind: from what motivates her to spend months working on a piece, to what constitutes the process of creation; from how an artist sees herself, to how art can actually be useful to society. (I know, right?!) As I always do when I read, I highlighted on my kindle some parts that resonated with me and that I found interesting and inspiring. So here it goes, a list of my favorite excerpts from "The Art Spirit":
