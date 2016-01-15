@@ -5,41 +5,35 @@ description: "Blog"
 ---
 
 <div class='container posts'>
-  <div class='division'>
-    <h3>Blog Posts</h3>
-    <ul>
+  <div class='category'>
+    <h1>Blog</h1>
     {% for post in site.posts %}
       {% if post.category contains 'blog' %}
-        <li>
-          <a href='{{ post.url }}'>{{ post.title }}</a>
-        </li>
+        <div class='post'>
+          <h3 class='title'><a href='{{ post.url }}'>{{ post.title }}</a></h3>
+          <a href='{{ post.url }}'>
+            <div class='entry'>
+              {{ post.content | strip_html | truncatewords: 50 }}
+            </div>
+          </a>
+        </div>
       {% endif %}
     {% endfor %}
-    </ul>
   </div>
-  <div class='division'>
-    <h3>Book Notes</h3>
-    <ul>
+  <div class='category'>
+    <h1>Book Notes</h1>
     {% for post in site.posts %}
       {% if post.category contains 'book' %}
-        <li>
-          <a href='{{ post.url }}'>{{ post.title }}</a>
-        </li>
+        <div class='post'>
+          <h3 class='title'><a href='{{ post.url }}'>{{ post.title }}</a></h3>
+          <a href='{{ post.url }}'>
+            <div class='entry'>
+              {{ post.content | strip_html | truncatewords: 50 }}
+            </div>
+          </a>
+        </div>
       {% endif %}
     {% endfor %}
-    </ul>
-  </div>
-  <div class='division'>
-    <h3>Podcast Notes</h3>
-    <ul>
-    {% for post in site.posts %}
-      {% if post.category contains 'podcast' %}
-        <li>
-          <a href='{{ post.url }}'>{{ post.title }}</a>
-        </li>
-      {% endif %}
-    {% endfor %}
-    </ul>
-  </div>
 
+  </div>
 </div>

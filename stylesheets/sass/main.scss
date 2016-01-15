@@ -56,6 +56,9 @@ html, body {
     li {
       display: inline;
       margin: 0 20px;
+      @include respond-to(handhelds) {
+        margin: 0 15px;
+      }
     }
   }
 }
@@ -75,6 +78,20 @@ html, body {
 }
 
 .posts {
+  a {
+    text-decoration: none;
+  }
+  .post {
+    margin-bottom: 30px;
+
+    h3.title {
+      margin: 20px 0 10px 0;
+    }
+  }
+
+  .category {
+    margin-bottom: 100px;
+  }
 }
 
 .content {
