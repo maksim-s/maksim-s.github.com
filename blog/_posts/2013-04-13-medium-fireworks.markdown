@@ -2,6 +2,7 @@
 
 layout: post
 title: Fireworks
+category: blog
 
 ---
 

@@ -5,15 +5,35 @@ description: "Blog"
 ---
 
 <div class='container posts'>
-{% for post in site.posts %}
-  <div class='post'>
-    <h3 class='title'><a href='{{ post.url }}'>{{ post.title }}</a></h3>
-    <a href='{{ post.url }}'>
-      <div class='entry'>
-        {{ post.content | strip_html | truncatewords: 50 }}
-      </div>
-    </a>
+  <div class='category'>
+    <h1>Blog</h1>
+    {% for post in site.posts %}
+      {% if post.category contains 'blog' %}
+        <div class='post'>
+          <h3 class='title'><a href='{{ post.url }}'>{{ post.title }}</a></h3>
+          <a href='{{ post.url }}'>
+            <div class='entry'>
+              {{ post.content | strip_html | truncatewords: 50 }}
+            </div>
+          </a>
+        </div>
+      {% endif %}
+    {% endfor %}
   </div>
-{% endfor %}
+  <div class='category'>
+    <h1>Book Notes</h1>
+    {% for post in site.posts %}
+      {% if post.category contains 'book' %}
+        <div class='post'>
+          <h3 class='title'><a href='{{ post.url }}'>{{ post.title }}</a></h3>
+          <a href='{{ post.url }}'>
+            <div class='entry'>
+              {{ post.content | strip_html | truncatewords: 50 }}
+            </div>
+          </a>
+        </div>
+      {% endif %}
+    {% endfor %}
 
+  </div>
 </div>

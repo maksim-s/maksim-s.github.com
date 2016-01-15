@@ -1,7 +1,9 @@
 ---
 
-layout: post
+layout: book
 title: Superintelligence
+category: book
+rating: 7
 
 ---
 
