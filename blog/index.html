@@ -23,7 +23,7 @@ description: "Blog"
   <div class='category'>
     <h1>Book Notes</h1>
     {% for post in site.posts %}
-      {% if post.category contains 'book' %}
+      {% if post.category contains 'book' and post.book_notes == true %}
         <div class='post'>
           <h3 class='title'><a href='{{ post.url }}'>{{ post.title }}</a></h3>
           <a href='{{ post.url }}'>
