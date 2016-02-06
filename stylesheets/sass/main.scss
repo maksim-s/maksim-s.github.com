@@ -19,8 +19,8 @@ html, body {
   height: 100%;
   background: $background-color;
   color: $text-color;
-  font: normal 11px $font-family;
-  line-height: 155%;
+  font: normal 12px $font-family;
+  line-height: 156%;
 
   a {
     color: $link-color;
@@ -28,6 +28,10 @@ html, body {
       text-decoration: none;
       color: $link-color;
     }
+  }
+
+  h1 {
+    font-size: 1.7em;
   }
 }
 
@@ -64,8 +68,8 @@ html, body {
 }
 
 .container {
-  width: 32%;
-  min-width: 550px;
+  width: 40%;
+  min-width: 620px;
   margin: auto;
   @include respond-to(medium-screens) {
     width: 70%;
@@ -74,6 +78,42 @@ html, body {
   @include respond-to(handhelds) {
     width: 90%;
     min-width: 100px;
+  }
+
+  .book-details {
+    margin: 30px 0;
+
+    .clearfix {
+      clear: both;
+    }
+
+    .book-image {
+      float: left;
+      width: 25%;
+
+      img {
+        width: 90%;
+      }
+    }
+
+    .details {
+      float: right;
+      width: 75%;
+      .detail {
+        .detail-category {
+          text-align: right;
+          vertical-align: top;
+          min-width: 105px;
+          font-weight: bold;
+        }
+
+        .detail-content {
+          vertical-align: top;
+        }
+      }
+    }
+    
+    
   }
 }
 

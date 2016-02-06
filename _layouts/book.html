@@ -7,6 +7,37 @@ layout: default
     {{ page.title }}
   </h1>
 
+  <div class='book-details'>
+    <div class='book-image'>
+      <img src='/images/{{page.book_image}}'></img>
+    </div>
+    <div class='details'>
+      <table>
+        <tr class='detail'>
+          <td class='detail-category'>Title:</td>
+          <td class='detail-content'>{{ page.book_title }}</td>
+        </tr>
+        <tr class='detail'>
+          <td class='detail-category'>Author:</td>
+          <td class='detail-content'>{{ page.book_author }}</td>
+        </tr>
+        <tr class='detail'>
+          <td class='detail-category'>Year Read:</td>
+          <td class='detail-content'>{{ page.book_read_year }}</td>
+        </tr>
+        <tr class='detail'>
+          <td class='detail-category'>My Rating:</td>
+          <td class='detail-content'>{{ page.book_rating }} / 10</td>
+        </tr>
+        <tr class='detail'>
+          <td class='detail-category'>Buy This Book:</td>
+          <td class='detail-content'><a href='{{ page.book_link }}' target='_blank'>Amazon</a></td>
+        </tr>
+      </table>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
   <div class="post-content">
     {{ content }}
   </div>
