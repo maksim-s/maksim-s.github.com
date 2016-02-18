@@ -1,5 +1,11 @@
 <li>
   <div class='book'>
-    <div class='book-title'><a href='{{ post.url }}'>{{ post.book_title }} by {{ post.book_author }}</a> </div>
+    <div class='book-title'>
+      {% if post.book_notes %}
+        <a href='{{ post.url }}'><b>{{ post.book_title }} by {{ post.book_author }}</b></a>
+      {% else %}
+        <a href='{{ post.url }}'>{{ post.book_title }} by {{ post.book_author }}</a>
+      {% endif %}
+    </div>
   </div>
 </li>

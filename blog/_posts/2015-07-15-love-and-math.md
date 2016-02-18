@@ -10,5 +10,6 @@ book_author: "Edward Frenkel"
 book_rating: 8
 book_link: "http://www.amazon.com/Love-Math-Heart-Hidden-Reality/dp/0465050743/"
 book_read_year: 2015
+book_image: "love-and-math.jpg"
 
 ---

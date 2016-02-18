@@ -10,5 +10,6 @@ book_author: Richard Branson
 book_rating: 7
 book_link: "http://www.amazon.com/Screw-Lets-Do-Lessons-Quick-ebook/dp/B005F3GK92/"
 book_read_year: 2013
+book_image: "screw-it-lets-do-it.jpg"
 
 ---

@@ -10,5 +10,6 @@ book_author: "Robin Williams"
 book_rating: 7
 book_link: "http://www.amazon.com/Non-Designers-Design-Book-4th/dp/0133966151/"
 book_read_year: 2013
+book_image: "nondesigners-design-book.jpg"
 
 ---

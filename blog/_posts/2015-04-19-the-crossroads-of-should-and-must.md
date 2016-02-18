@@ -10,5 +10,6 @@ book_author: "Elle Luna"
 book_rating: 7
 book_link: "http://www.amazon.com/Crossroads-Should-Must-Follow-Passion/dp/0761184880/"
 book_read_year: 2015
+book_image: "crossroads-of-should-and-must.jpg"
 
 ---

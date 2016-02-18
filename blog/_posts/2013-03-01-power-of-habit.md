@@ -10,5 +10,6 @@ book_author: "Charles Duhigg"
 book_rating: 8
 book_link: "http://www.amazon.com/Power-Habit-What-Life-Business-ebook/dp/B0055PGUYU/"
 book_read_year: 2013
+book_image: "power-of-habit.jpg"
 
 ---

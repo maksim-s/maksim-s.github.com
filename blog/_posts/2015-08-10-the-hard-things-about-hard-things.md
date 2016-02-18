@@ -10,5 +10,6 @@ book_author: "Ben Horowitz"
 book_rating: 10
 book_link: "http://www.amazon.com/Hard-Thing-About-Things-Building/dp/0062273205/"
 book_read_year: 2015
+book_image: "hard-things-about-hard-things.jpg"
 
 ---

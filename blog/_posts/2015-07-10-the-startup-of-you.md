@@ -10,5 +10,6 @@ book_author: "Reid Hoffman and Ben Casnocha"
 book_rating: 8
 book_link: "http://www.amazon.com/Start-up-You-Future-Yourself-Transform/dp/0307888908/"
 book_read_year: 2015
+book_image: "startup-of-you.jpg"
 
 ---

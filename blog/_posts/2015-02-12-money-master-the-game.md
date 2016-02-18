@@ -10,5 +10,6 @@ book_author: "Tony Robbins"
 book_rating: 6
 book_link: "http://www.amazon.com/MONEY-Master-Game-Financial-Freedom/dp/1476757801/"
 book_read_year: 2015
+book_image: "money-master-the-game.jpg"
 
 ---

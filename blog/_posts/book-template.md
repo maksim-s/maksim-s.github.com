@@ -9,6 +9,7 @@ book_title: ""
 book_author: ""
 book_rating: 
 book_link: ""
-book_read_year: 2014
+book_read_year: 2016
+book_image: ".jpg"
 
 ---

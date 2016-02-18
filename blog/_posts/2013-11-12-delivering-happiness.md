@@ -10,5 +10,6 @@ book_author: "Tony Hsieh"
 book_rating: 8
 book_link: "http://www.amazon.com/Delivering-Happiness-Profits-Passion-Purpose/dp/0446576220/"
 book_read_year: 2013
+book_image: "delivering-happiness.jpg"
 
 ---

@@ -10,5 +10,6 @@ book_author: "Brad Stone"
 book_rating: 7
 book_link: "http://www.amazon.com/Everything-Store-Jeff-Bezos-Amazon-ebook/dp/B00BWQW73E/"
 book_read_year: 2013
+book_image: "everything-store.jpg"
 
 ---

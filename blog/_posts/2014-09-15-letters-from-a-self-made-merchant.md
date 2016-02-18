@@ -10,5 +10,6 @@ book_author: "George Horace Lorimer"
 book_rating: 7
 book_link: "http://www.amazon.com/Letters-Self-Made-Merchant-His-Son/dp/B003YHBET2/"
 book_read_year: 2014
+book_image: "letters-from-a-self-made-merchant.jpg"
 
 ---
