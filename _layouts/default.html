@@ -7,8 +7,17 @@
     <meta name="viewport" content="width=device-width">
     <title>Maksim Stepanenko | {{ page.title }}</title>
     <meta name="author" content="Maksim Stepanenko">
-    <meta name="description" content="Maksim Stepanenko. {{ page.description }}">
+    <meta name="description" content="{{ page.content | strip_html | truncatewords: 50 }}">
     <meta name="google-site-verification" content="rovN7fHQfwPMfAkcEElrUcQVwE56onFM1EGKQSqq_rQ" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:description" content="{{ page.content | strip_html | truncatewords: 50 }}" />
+    {% if page.book_image %}
+      <meta property="og:image" content="/images/{{page.book_image}}" />
+    {% elsif page.header_image %}
+      <meta property="og:image" content="/images/{{page.header_image}}" />
+    {% endif %}
+
     <link rel="icon" type="image/png" href="/images/favicon.ico" />
     <link rel="stylesheet" href="/stylesheets/css/main.css" />
     </head>

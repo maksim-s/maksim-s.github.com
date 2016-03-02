@@ -6,7 +6,7 @@ category: blog
 
 ---
 
-_Originally I wrote this short story for a collection on [Medium](https://medium.com/unforgettable-moments/2b2dd018f8fd) called ["Unforgettable moments"](https://medium.com/unforgettable-moments), but then decided to cross post it here as well._
+_Originally I wrote this for a collection on [Medium](https://medium.com/unforgettable-moments/2b2dd018f8fd) called ["Unforgettable moments"](https://medium.com/unforgettable-moments), but then decided to cross post it here as well._
 
 --------------------------------
 
