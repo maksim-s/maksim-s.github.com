@@ -4,13 +4,15 @@ html, body {
   height: 100%;
   background: #ffffff;
   color: #333333;
-  font: normal 11px menlo, "andale mono", "courier new", sans-serif;
-  line-height: 155%; }
+  font: normal 12px menlo, "andale mono", "courier new", sans-serif;
+  line-height: 156%; }
   html a, body a {
     color: #111111; }
     html a:hover, body a:hover {
       text-decoration: none;
       color: #111111; }
+  html h1, body h1 {
+    font-size: 1.7em; }
 
 .header {
   font-family: menlo, "andale mono", "courier new", sans-serif;
@@ -38,8 +40,8 @@ html, body {
           margin: 0 15px; } }
 
 .container {
-  width: 32%;
-  min-width: 550px;
+  width: 40%;
+  min-width: 620px;
   margin: auto; }
   @media only screen and (max-width: 1000px) {
     .container {
@@ -49,6 +51,25 @@ html, body {
     .container {
       width: 90%;
       min-width: 100px; } }
+  .container .book-details {
+    margin: 30px 0; }
+    .container .book-details .clearfix {
+      clear: both; }
+    .container .book-details .book-image {
+      float: left;
+      width: 25%; }
+      .container .book-details .book-image img {
+        width: 90%; }
+    .container .book-details .details {
+      float: right;
+      width: 75%; }
+      .container .book-details .details .detail .detail-category {
+        text-align: right;
+        vertical-align: top;
+        min-width: 105px;
+        font-weight: bold; }
+      .container .book-details .details .detail .detail-content {
+        vertical-align: top; }
 
 .posts a {
   text-decoration: none; }

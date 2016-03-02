@@ -3,7 +3,14 @@
 layout: book
 title: Superintelligence
 category: book
-rating: 7
+
+book_notes: true
+book_title: "Superintelligence: Paths, Dangers, Strategies"
+book_author: Nick Bostrom
+book_rating: 8
+book_link: "http://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom/dp/0199678111/"
+book_read_year: 2015
+book_image: "superintelligence.jpg"
 
 ---
 
