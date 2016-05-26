@@ -84,36 +84,51 @@ book_image: "seeking-wisdom.jpg"
 	- We react more strongly to the concrete and specific that to the abstract. We overweight personal experiences over vicarious. We see only what we have names for. 
 	- We tend to focus only on the present information rather than what information may potentially be missing.
 15. **Reciprocation**
-	16. We tend  to repay in kind what others have done for us — good or bad.
-	17. We respond the same way as we are treated. If we are unfair to others, people are unfair to us back. If people trust us, we tend to trust them.
-	18. People don’t like to feel indebted. We are disliked if we don’t allow people to give back what we’ve given them. 
+	- We tend  to repay in kind what others have done for us — good or bad.
+	- We respond the same way as we are treated. If we are unfair to others, people are unfair to us back. If people trust us, we tend to trust them.
+	- People don’t like to feel indebted. We are disliked if we don’t allow people to give back what we’ve given them. 
 16. **Liking and Social Acceptance**
-	17. We believe, trust and agree with people we know and like. We like the people who like us (because we like to be liked).
-	18. Asking a favor of someone is like to increase that person’s liking for us. People want to be seen as consistent with their behavior. 
+	- We believe, trust and agree with people we know and like. We like the people who like us (because we like to be liked).
+	- Asking a favor of someone is like to increase that person’s liking for us. People want to be seen as consistent with their behavior. 
 17. **Social Proof**
-	18. We feel more comfortable as part of a majority. It acts as a protection from criticism. If we are wrong and everybody else is too, we get less blame.
-	19. The more people, the more reduced we see our own responsibility.
-	20. When all are accountable, no one is accountable.
-	21. Appoint someone in your group to question things and point out risks and pitfalls. 
+	- We feel more comfortable as part of a majority. It acts as a protection from criticism. If we are wrong and everybody else is too, we get less blame.
+	- The more people, the more reduced we see our own responsibility.
+	- When all are accountable, no one is accountable.
+	- Appoint someone in your group to question things and point out risks and pitfalls. 
 18. **Authority**
-	19. We tend to obey an authority, especially when we are uncertain, supervised, or when people around us are doing the same.
-	20. Keep in mind: names and reputation influence us. 
+	- We tend to obey an authority, especially when we are uncertain, supervised, or when people around us are doing the same.
+	- Keep in mind: names and reputation influence us. 
 19. **Sensemaking**
-	20. “We understand life backwards but live it forwards.” - Soren Kierkegaard
-	21. We don’t like uncertainty. We have a need to understand and make sense of events. We therefore seek explanations for why things happen. By finding patterns and causal relationships we get comfort and learn for the future. 
-	22. 
+	- “We understand life backwards but live it forwards.” - Soren Kierkegaard
+	- We don’t like uncertainty. We have a need to understand and make sense of events. We therefore seek explanations for why things happen. By finding patterns and causal relationships we get comfort and learn for the future. 
+	- After an event a story is created so that the event makes sense. (hindsight bias)
 20. **Reason-Respecting**
+	- When asked for a favor, people are more likely to comply if they are giver a reason — even if they don’t understand the reason or it’s wrong.
 21. **Believe First and Doubt Later**
-22. **Memory Limitations**
+	- Believing is easier than doubting. Doubting is active and takes effort.
+	- We first believe all information we understand and only afterwards and with effort do we evaluate, and if necessary, un-believe it.
 23. **Do-Something Syndrome**
+	- Don’t confuse activity with results. There’s no reason to do a good job with something you shouldn’t do in the first place.
 24. **Say-Something Syndrome**
-25. **Emotions**
-26. **Stress**
-27. **Pain, Chemicals and Diseases**
-28. **Multiple Tendencies**
-
-
+	- “Wise men talk because they have something to say; fools, because they have to say something.” - Plato 
+	- “If you have nothing to say, say nothing.” - Mark Twain
 
 ## The Physics and Mathematics of Misjudgments
+- Every action has wanted and unwanted consequences. Try to think about all net effects.
+- Try to optimize the whole and not a system’s individual parts.
+- Winning an auction: winning a right to pay more for something than everyone else thought it was worth.
+- Change in size or time influences form, function and behavior. If something is made of a certain size is made bigger or smaller, it may not work the same way.
+- Critical mass: at certain scale a system reaches a critical mass or a limit where the behavior of the system may change dramatically
+- Frequency of some events in inversely proportional to their impact and size.
+- We believe that cause resembles its effect, but the size of an effect may not be proportional to its cause.
+- The more unexpected or negative we find an event, the more likely we are to look for explanations. We underestimate the influence of randomness.
+- Be careful not to mistake an effect for its cause.
+- There may be many causes for a given effect. Always look for alternative explanations.
+- Something is only cheap or expensive in relation to something else. 
+- The more independent steps, the more opportunities for failure.
+- Accidents happen if they have opportunities to happen. 
+- Post mortem: what was my original reason for doing something? What were my assumptions and alternatives? What worked and what didn’t in reality? Given the information that was available, should I have been able to predict what was going to happen? What worked well? What should I do differently? What must I stop doing? 
+- People calculate too much and think too little.
+- Reducing mistakes by learning what areas, situations and people to avoid is often a better use of time than seeking out new ways of succeeding.
+- Non-goals: instead of asking how we can achieve a goal, ask the opposite: what don’t I want to achieve? What causes the non-goal? How can I avoid that?
 
-## Guidelines to Better Thinking
