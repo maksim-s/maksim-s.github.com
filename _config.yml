@@ -1,6 +1,3 @@
 auto: true
 permalink: /:categories/:year/:title/
-markdown: redcarpet
 highlighter: pygments
-redcarpet:
-    extensions: ["footnotes"]
