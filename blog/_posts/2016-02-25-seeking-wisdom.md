@@ -14,7 +14,7 @@ book_image: "seeking-wisdom.jpg"
 
 ---
 
-## What Influences Our Thinking?
+#### What Influences Our Thinking?
 
 - It is our brain, its anatomy, physiology and biochemistry and how these parts function that set the limits for how we think.
 - The Brain changes continuously as a result of our experiences. Experiences produce physical changes in our brain either through new neural connections or through the generation of new neurons. 
@@ -29,7 +29,7 @@ book_image: "seeking-wisdom.jpg"
 - What is our nature? It’s genes, life experiences, present environment and randomness. 
 - “I always look at IQ and talent as representing the horsepower of the motor, but then in terms of the output, the efficiency with which the motor works, depends on rationality. That’s because a lot of people start out with 400-horsepower motors and get a hundred horsepower of output. It’s way better to have a  200-horsepower motor and get it all into output.” - Warren Buffett
 
-## The Psychology of Misjudgments
+#### The Psychology of Misjudgments
 
 1. **Mere Association**
 	- We automatically feel pleasure or pain when we connect a stimulus — a thing, situation or individual — with an experience we’ve had in the past or with values or preferences we are born with.
@@ -113,7 +113,7 @@ book_image: "seeking-wisdom.jpg"
 	- “Wise men talk because they have something to say; fools, because they have to say something.” - Plato 
 	- “If you have nothing to say, say nothing.” - Mark Twain
 
-## The Physics and Mathematics of Misjudgments
+#### The Physics and Mathematics of Misjudgments
 - Every action has wanted and unwanted consequences. Try to think about all net effects.
 - Try to optimize the whole and not a system’s individual parts.
 - Winning an auction: winning a right to pay more for something than everyone else thought it was worth.
