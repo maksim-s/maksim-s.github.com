@@ -1,38 +1,57 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-  <head>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width">
-    <title>Maksim Stepanenko | {{ page.title }}</title>
+    <title>{{ page.title }} | Maksim Stepanenko</title>
     <meta name="author" content="Maksim Stepanenko">
-    <meta name="description" content="{{ page.content | strip_html | truncatewords: 50 }}">
+    <meta name="description" content="{{ page.description }}">
     <meta name="google-site-verification" content="rovN7fHQfwPMfAkcEElrUcQVwE56onFM1EGKQSqq_rQ" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="og:description" content="{{ page.content | strip_html | truncatewords: 50 }}" />
+    <meta property="og:title" content="{{ page.title }} | Maksim Stepanenko" />
     {% if page.book_image %}
       <meta property="og:image" content="/images/{{page.book_image}}" />
     {% elsif page.header_image %}
       <meta property="og:image" content="/images/{{page.header_image}}" />
     {% endif %}
 
-    <link rel="icon" type="image/png" href="/images/favicon.ico" />
-    <link rel="stylesheet" href="/stylesheets/css/main.css" />
-    </head>
-  <body>
-    <header class='header'>
-      <a class='name' href=''>Maksim Stepanenko | {{ page.title }}</a>
-      <ul class="pages">
-        <li class="page"><a href="/">Home</a></li>
-        <li class="page"><a href="/blog">Blog</a></li>
-        <li class="page"><a href="http://photography.maksim.ms">Photography</a></li>
-        <li class="page"><a href="/books">Bookshelf</a></li>
-      </ul>
-    </header>
-    <article class='content'>
-      {{ content }}
-    </article>
-  </body>
-</html>
+    <!-- Mobile Specific Metas
+  ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+  ================================================== -->
+    <link rel="stylesheet" href="/stylesheets/css/base.css">
+    <link rel="stylesheet" href="/stylesheets/css/skeleton.css">
+    <link rel="stylesheet" href="/stylesheets/css/typography.css">
+    <link rel="stylesheet" href="/stylesheets/css/layout.css">
+    <link rel="stylesheet" href="/stylesheets/css/custom.css">
+    <link rel="stylesheet" href="/stylesheets/css/syntax.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="three columns sidebar">
+            <nav>
+                <h3 id="logo"><a href="/">Maksim Stepanenko</a></h3>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/books">Bookshelf</a></li>
+                    <li><a target="_blank" href="https://twitter.com/maksim_s">Twitter</a></li>
+                    <li><a target="_blank" href="https://github.com/maksim-s">Github</a></li>
+                    <li><a target="_blank" href="https://keybase.io/maksim">Keybase</a></li>
+                </ul>
+            </nav>
+            &nbsp;
+        </div>
+
+        <div class="twelve columns offset-by-one content">
+          <h3>{{ page.title }}</h3>
+          <br>
+          {{ content }}
+        </div>
+    </div>
+</body>

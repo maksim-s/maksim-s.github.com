@@ -4,36 +4,26 @@ title: Blog
 description: "Blog"
 ---
 
-<div class='container posts'>
-  <div class='category'>
-    <h1>Blog</h1>
-    {% for post in site.posts %}
-      {% if post.category contains 'blog' %}
-        <div class='post'>
-          <h3 class='title'><a href='{{ post.url }}'>{{ post.title }}</a></h3>
-          <a href='{{ post.url }}'>
-            <div class='entry'>
-              {{ post.content | strip_html | truncatewords: 50 }}
-            </div>
-          </a>
-        </div>
-      {% endif %}
-    {% endfor %}
-  </div>
-  <div class='category'>
-    <h1>Book Notes</h1>
-    {% for post in site.posts %}
-      {% if post.category contains 'book' and post.book_notes == true %}
-        <div class='post'>
-          <h3 class='title'><a href='{{ post.url }}'>{{ post.title }}</a></h3>
-          <a href='{{ post.url }}'>
-            <div class='entry'>
-              {{ post.content | strip_html | truncatewords: 50 }}
-            </div>
-          </a>
-        </div>
-      {% endif %}
-    {% endfor %}
+<h4>Posts</h4>
+<ul>
+  {% for post in site.posts %}
+    {% if post.category contains 'blog' %}
+      <li>
+        <a href='{{ post.url }}'>{{ post.title }}</a> - {{ post.date | date: '%B %d, %Y' }}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
 
-  </div>
-</div>
+<h4>Book Notes</h4>
+<ul>
+  {% for post in site.posts %}
+    {% if post.category contains 'book' and post.book_notes == true %}
+        <li>
+          <a href='{{ post.url }}'>
+            {{ post.book_title }}
+          </a> - {{ post.date | date: '%B %d, %Y' }}
+        </li>
+    {% endif %}
+  {% endfor %}
+</ul>

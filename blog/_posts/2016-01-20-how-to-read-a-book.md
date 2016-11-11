@@ -16,7 +16,7 @@ book_image: "how-to-read-a-book.jpg"
 
 I wish I had read this book earlier, it’s an absolute must for anyone who wants get more serious about their reading. It teaches you how to supercharge your reading in order to learn and to understand. Most of us learn how to read superficially, when we are little, and never improve upon that. Learning from the books, using the same reading techniques that we use, when we read for pleasure, is very ineffective and there are many ways to optimize it. This book provides great strategies and very actionable advice about how to become a better reader and learner.
 
-## The Goals of Reading
+#### The Goals of Reading
 
 The goal a reader seeks — be it entertainment, information, or understanding — determines the way he reads. The effectiveness with which he reads is determined by the amount of effort and skill he puts into his reading. 
 Reading, like unaided discovery, is learning from an absent teacher. 
@@ -27,7 +27,7 @@ Reading, like unaided discovery, is learning from an absent teacher.
 	- initial inequality of understanding
 	- the reader must be able to overcome this inequality to some degree
 
-## How to Be a Demanding Reader
+#### How to Be a Demanding Reader
 
 Ask questions while you read — questions that you yourself must try to answer in the course of reading.
 
@@ -36,33 +36,33 @@ Ask questions while you read — questions that you yourself must try to answer 
 3. **Is the book true, in whole or part?**
 4. **What of it?**
 
-## The Levels of Reading
+#### The Levels of Reading
 
-### Level 1: Elementary Reading
+##### Level 1: Elementary Reading
 
 - as one masters this level one passes from non-literacy to at least beginning literacy.
 - this level of reading is learned in elementary school.
 - The child’s first encounter with reading is at this level.
 
-### Level 2: Inspectional Reading
+##### Level 2: Inspectional Reading
 
 - Inspectional reading’s aim is to get the most out of the book within a given time — usually a relatively short time, and always too short a time to get out of the book everything that can be gotten.
 - Inspectional reading is the art of *skimming systematically*.
 
-### Level 3: Analytical Reading
+##### Level 3: Analytical Reading
 
 - Analytical reading is thorough reading, complete reading, or good reading — the best reading you can do. If inspectional reading is the best and most complete reading that is possible given a limited time, then analytical reading is the best and most complete reading that is possible given unlimited time.
 - “some books are to be tasted, others to be swallowed, and some few to be chewed and digested” - Francis Bacon
 - Analytical reading is preeminently for the sake of understanding.
 
-### Level 4: Syntopical Reading
+##### Level 4: Syntopical Reading
 
 - When reading syntopically, the reader reads many books, not just one, and places them in relation to one another and to a subject about which the all revolve.
 - the syntopical reader is able to construct an analysis of the subject that may not be in any of the books
 
-## Inspectional Reading
+#### Inspectional Reading
 
-### Systematic skimming or pre-reading
+##### Systematic skimming or pre-reading
 
 Skimming or pre-reading is the first sublevel of inspectional reading. Your main aim is to discover whether the book requires a more careful reading. Secondly, skimming can tell you lots of other things about the book, even if you decide not to read it again with more care.
 
@@ -73,18 +73,18 @@ Skimming or pre-reading is the first sublevel of inspectional reading. Your main
 5. Look at the chapters that seem to be pivotal to the book’s argument.
 6. Turn the pages, dipping in here and there, reading a paragraph or two, sometimes several pages in sequence, never more than that.
 
-### Superficial reading
+##### Superficial reading
 
 In tackling a difficult book for the first time, read it through without ever stopping to look up or ponder the things you do not understand right away.
 
-## Analytical Reading
+#### Analytical Reading
 
-### Pigeonholing a Book
+##### Pigeonholing a Book
 
 - [Rule 1] You must know kind of book you are reading, and you should know this as early in the process as possible, preferably before you begin to read.
 - just as there is a difference in the art of teaching in different fields, so there is a reciprocal difference in the art of being taught. The activity of the student must somehow be responsive to the activity of the instructor. The relation between books and readers is the same as that between teachers and their students. Hence, as books differ in the kinds of knowledge they have to communicate, they proceed to instruct us differently; and, if we are to follow them, we must learn to read each kind in an appropriate manner.
 
-### X-raying a Book
+##### X-raying a Book
 
 - Every book has a skeleton hidden between its covers. Your job as an analytical reader is to find it.
 - [Rule 2] State the unity of the whole book in a single sentence, or at most a few sentences.
@@ -92,12 +92,12 @@ In tackling a difficult book for the first time, read it through without ever st
 - The author made his [structure of the book] in order to write a good book. You must make yours in order to read it well. If he were a perfect writer and you a perfect reader, it would follow that the two would be the same.
 - [Rule 4] Find out what the author’s problems were. The author of a book starts with a question or a set of questions. The book ostensibly contains the answer or answers. 
 
-### Coming to Terms with an Author
+##### Coming to Terms with an Author
 
 - [Rule 5] Find the important words and through them come to terms with the author. The first part is to locate the important words, the words that make a difference. The second part is to determine the meaning of these words, as used, with precision.
 - one word can be a vehicle for many terms, and one term can be expressed by many words
 
-### Determining an Author’s Message
+##### Determining an Author’s Message
 
 - The author’s propositions are nothing but expressions of personal opinions unless they are supported by reasons. If it is the book and the subject with which it deals that we are interested in, and not just the author, we want to know not merely what his propositions are, but also why he thinks we should be persuaded to accept them. 
 - [Rule 6] Mark the most important sentences in the book and discover the propositions they contain.
@@ -109,7 +109,7 @@ In tackling a difficult book for the first time, read it through without ever st
 - If the book contains arguments you must know what they are, and be able to put them into a nutshell. 
 - [Rule 8] Find out what the author’s solutions are.
 
-### Criticizing a Book Fairly
+##### Criticizing a Book Fairly
 
 - The activity of reading does not stop with the work of understanding what a book says. It must be completed by the work of criticism, the work of judging.
 - Do not begin to talk back until you have listened carefully and are sure you understand. Not until you are honestly satisfied that you have accomplished the first two stages of reading should you feel free to express yourself. When you have, you not only have earned the right to turn critic, you also have the duty to do so.
@@ -125,7 +125,7 @@ In tackling a difficult book for the first time, read it through without ever st
 	4. “Your analysis is incomplete”
 
 
-### Summary of the rules
+##### Summary of the rules
 
 1. **Rules for finding what a book is about**
 	1. Classify the book according to kind and subject matter.
@@ -146,7 +146,7 @@ In tackling a difficult book for the first time, read it through without ever st
 	6. Show wherein the author is illogical.
 	7. Show wherein the author’s analysis or account is incomplete. 
 
-## Syntopical Reading
+#### Syntopical Reading
 
 - In syntopical reading, it is you and your concerns that are primarily to be served, not the books that you read.
 - When you read a book analytically, you put yourself in a relation to it of disciple to master. When you read syntopically, you must be the master of the situation.
@@ -161,18 +161,8 @@ In tackling a difficult book for the first time, read it through without ever st
 	4. Define the issues, both major and minor ones, by ranging the opposing answers of authors to the various questions on one side of an issue or another. 
 	5. Analyze the discussion by ordering the questions and issues in such a way as to throw maximum light on the subject. 
 
-## How to Read Practical Books
+#### How to Read Practical Books
 
 - The most important thing to remember about any practical book is that it can never solve the practical problems with which it is concerned. A theoretical book can solve its own problems. But a practical book can only be solved by action itself.
 - Agreement with a practical book implies action on your part.
-
-
-
-
-
-
-
-
-
-
 

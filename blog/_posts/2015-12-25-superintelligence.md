@@ -16,7 +16,7 @@ book_image: "superintelligence.jpg"
 
 Below are the notes/bullet points I wrote down while reading [Nick Bostrom's "Superintelligence: Paths, Dangers, Strategies"](http://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom/dp/0199678111/). They were mostly notes for my future self, but I decided to start publishing all of my reading notes on this blog. Hopefully, someone else finds them useful too, but I will not be sad if I'm the only person who will ever read them :)
 
-## Paths To Superintelligence
+#### Paths To Superintelligence
 There are 5 different, but not mutually-exclusive, ways we can get to a greater-than-human intelligence:
 
 - __Artificial intelligence__: programming a general AI that can improve recursively
@@ -25,13 +25,13 @@ There are 5 different, but not mutually-exclusive, ways we can get to a greater-
 - __Brain-computer interfaces__: augmenting biological brains with computer implants
 - __Networks and organizations__: combining individual weaker intelligences into networks to achieve “collective superintelligence”
 
-## Forms Of Superintelligence
+#### Forms Of Superintelligence
 
 - __Speed superintelligence__: can do everything a human intellect can, but much faster.
 - __Collective superintelligence__: composed of a large number of weaker intellects such that it outperforms any current cognitive system across many general domains
 - __Quality superintelligence__: at least as fast as a human brain, but qualitatively smarter
 
-## Digital Intelligence Advantages Over Biological
+#### Digital Intelligence Advantages Over Biological
 
 - speed of computational elements
 - internal communication speed
@@ -43,7 +43,7 @@ There are 5 different, but not mutually-exclusive, ways we can get to a greater-
 - memory sharing
 - new modules, modalities, and algorithms
 
-## The Superintelligent Will
+#### The Superintelligent Will
 
 - __Orthogonality thesis__: intelligence and final goals are independent variables: any level of intelligence can be combined with any final goal
 - __Instrumental convergence thesis__: superintelligent agents for a wide range of final goals will pursue similar intermediary goals to help them advance towards the final goal. For example:
@@ -53,13 +53,13 @@ There are 5 different, but not mutually-exclusive, ways we can get to a greater-
     - technological perfection
     - resource acquisition
 
-## Failure Modes
+#### Failure Modes
 
 - __Perverse instantiation__: mismatch between the intention of the goal and the way the AI decides to satisfy it. For example: goal: make humans happy, perverse instantiation: implant electrodes into the pleasure center of human brains
 - __Infrastructure profusion__: an agent transforms large part of the reachable universe into a resource to help it achieve its final goal. For example: goal: maximize the manufacture of paperclips, result: convert the Earth and then large chunks of the observable universe into paperclips
 - __Mind crime__: moral and ethical problems that arise when the AI creates and kills of simulated minds.
 
-## The Control Problem
+#### The Control Problem
 
 - __Capability control__: control what superintelligence can do
     - _boxing method_: allow the system to interact with the outside world only via specific restricted channels
@@ -72,7 +72,7 @@ There are 5 different, but not mutually-exclusive, ways we can get to a greater-
     - _indirect normativity_: indirect specification of the rules and values. For example: “achieve that which we would have wished the AI to achieve if we had thought about the matter long and hard”
     - _augmentation_: start with a good system and enhance it. This would work for brain emulation, biological enhancement, brain-computer interface, and network and organizations types of superintelligence
 
-## Superintelligence Castes
+#### Superintelligence Castes
 
 - __Oracle__: a question-answering system
     - boxing methods and domesticity fully applicable
@@ -91,7 +91,7 @@ There are 5 different, but not mutually-exclusive, ways we can get to a greater-
 - __Tool-AI__: a system designed not to exhibit goal-directed behavior
     - powerful search may result in solutions that meet the criteria in an unintended and dangerous ways
 
-## Value Loading Problem
+#### Value Loading Problem
 The problem of loading values into an artificial agent to make it pursue the value as its final goal.
 
 - __Evolutionary selection__
@@ -122,7 +122,7 @@ The problem of loading values into an artificial agent to make it pursue the val
     - a system where artificial agents with the proper values loaded in them monitor the development of slightly smarter systems
     - the final system is a pyramid with humans (weakest intelligence, proper values, the most control) at the top and the smartest agents at the bottom (strongest intelligence, values still being monitored by higher levels of the pyramid, no control)
 
-## Value Choosing Problem
+#### Value Choosing Problem
 Suppose we can load the values into the system, now we need to decide what values to load.
 
 - __Indirect normativity__: we don’t know enough in our current state to define concrete standards, so we specify something abstract in hope that superintelligence could find a concrete standard in the future.

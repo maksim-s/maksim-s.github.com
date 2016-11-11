@@ -8,7 +8,7 @@ category: blog
 
 Some excerpts that I found interesting from Alan Kay’s [paper](http://www.vpri.org/pdf/future_of_reading.pdf) on the future of  reading and learning.
 
-### New Medium Adoption
+#### New Medium Adoption
 
 Becoming a fluent reader and writer requires new and deep skills to be learned, to the extent that we are not the same human being afterwards. Anthropological studies of societies show that literate societies think differently than oral ones. In other words, a literate society is not “an oral society with a writing system” but is a new ecology of ideas and thinking. 
 
@@ -18,13 +18,13 @@ The more different and difficult the medium, the less attractive — or even vis
 
 For example, the American system was _argued into existence_ and shaped by writing and reading. Tom Paine’s _Common Sense_ was an argument _against_ the commonsense of the day that “Monarchies seem natural” Instead he urged “We need to _design_ our governance system”. The Constitution was argued pro and con in the _newspapers_ of the 13 colonies. The pro collection is “The Federalist Papers”, and there is also a collection of “Anti-Federalist Papers”.
 
-### Four Systems
+#### Four Systems
 
 Another powerful perspective on the worlds we live in has arisen in the 20th century: Systems. In simplest terms, we humans are embedded in four great _systems of systems_: the natural universe, our social systems, our technological systems, and ourselves: “The systems we live in, and the systems we are”. This way of looking at complexity has its own powers, outlook, vocabulary, dynamics, theories and principles. 
 
 Many of the most important issues of the 21st century can be fruitfully examined through the eyes of systems organizations and dynamics.
 
-### Learning to Learn Difficult-To-Learn Things
+#### Learning to Learn Difficult-To-Learn Things
 
 Most of the invented “powerful ideas” — such as mathematics, science, equal rights, systems, musical architectures such as harmony and counterpoint, etc. — had to be invented because they are not strongly built into our genetically constructed brains. We can learn them to some extent because we can make structures and processes that are a bit like biological brains from internal representations in languages, and skills in manipulating the languages. For example, we aren’t wired for the notions of change that Calculus was invented for, but we can get fluent enough in the artificial system of Calculus to outthink the greatest geniuses of antiquity in these areas. In many respects, the main reason for structured education is to help people _learn difficult to learn things_.
 
@@ -34,7 +34,7 @@ The best of the ideas have to do with how to harness the intelligence and drives
 
 The future of learning difficult-to-learn things is the future of learning to make difficult-to-make things — in other words, the future of “reading” depends on the future of “writing”.
 
-### Building a Computer Teacher
+#### Building a Computer Teacher
 
 We aim for a computer learning helper agent that is better than no teacher, better than a bad teacher, as good as a decent teacher, and will not attempt the magic of a great teacher.
 We need at least:
@@ -49,7 +49,7 @@ We need at least:
 
 The next qualitative advance in user interface environments will be: _a teacher for every learner_ — user interfaces that can deeply help end users learn new ideas and whole subjects.
 
-### The Real Computer Revolution Hasn’t Happened Yet
+#### The Real Computer Revolution Hasn’t Happened Yet
 
 Part of a new idea — whether application or how to be more facile on one’s computer — can be the “advice to the user interface” about how to help the end user learn the new ideas.
 

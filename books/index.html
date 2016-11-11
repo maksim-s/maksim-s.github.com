@@ -4,56 +4,40 @@ title: Bookshelf
 description: Bookshelf
 ---
 
-<div class='container'>
-  <div class='section'>
-    <h1>Bookshelf</h1>
-    <p>
-      One of my New Year's resolutions in 2013 was to read more, so I decided to spend at least 30 minutes every day reading.
-      Below is the list of books I’ve read since then. Links in bold have my notes and highlights from the books.
-    </p>
-  </div>
-  <div class='section'>
-    <h3>2016</h3>
-    <ul>
-      {% assign items = site.posts | sort: 'book_rating' %}
-      {% for post in items reversed %}
-        {% if post.category contains 'book' and post.book_read_year == 2016 %}
-          {% include_relative book.html %}
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-  <div class='section'>
-    <h3>2015</h3>
-    <ul>
-      {% assign items = site.posts | sort: 'book_rating' %}
-      {% for post in items reversed %}
-        {% if post.category contains 'book' and post.book_read_year == 2015 %}
-          {% include_relative book.html %}
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-  <div class='section'>
-    <h3>2014</h3>
-    <ul>
-      {% assign items = site.posts | sort: 'book_rating' %}
-      {% for post in items reversed %}
-        {% if post.category contains 'book' and post.book_read_year == 2014 %}
-          {% include_relative book.html %}
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-  <div class='section'>
-    <h3>2013</h3>
-    <ul>
-      {% assign items = site.posts | sort: 'book_rating' %}
-      {% for post in items reversed %}
-        {% if post.category contains 'book' and post.book_read_year == 2013 %}
-          {% include_relative book.html %}
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-</div>
+<p>Below is a log of books that I've read in the last couple of years. *some of them contain my notes and highlights.</p>
+<h4>2016</h4>
+<ul>
+  {% assign items = site.posts | sort: 'book_rating' %}
+  {% for post in items reversed %}
+    {% if post.category contains 'book' and post.book_read_year == 2016 %}
+      {% include_relative book.html %}
+    {% endif %}
+  {% endfor %}
+</ul>
+<h4>2015</h4>
+<ul>
+  {% assign items = site.posts | sort: 'book_rating' %}
+  {% for post in items reversed %}
+    {% if post.category contains 'book' and post.book_read_year == 2015 %}
+      {% include_relative book.html %}
+    {% endif %}
+  {% endfor %}
+</ul>
+<h4>2014</h4>
+<ul>
+  {% assign items = site.posts | sort: 'book_rating' %}
+  {% for post in items reversed %}
+    {% if post.category contains 'book' and post.book_read_year == 2014 %}
+      {% include_relative book.html %}
+    {% endif %}
+  {% endfor %}
+</ul>
+<h4>2013</h4>
+<ul>
+  {% assign items = site.posts | sort: 'book_rating' %}
+  {% for post in items reversed %}
+    {% if post.category contains 'book' and post.book_read_year == 2013 %}
+      {% include_relative book.html %}
+    {% endif %}
+  {% endfor %}
+</ul>
