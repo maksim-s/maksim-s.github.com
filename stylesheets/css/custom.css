@@ -30,6 +30,10 @@ nav ul li a:focus {
   color: #222;
 }
 
+li {
+  margin-bottom: 5px;
+}
+
 #logo {
   margin-bottom: 20px;
   letter-spacing: -1px;
