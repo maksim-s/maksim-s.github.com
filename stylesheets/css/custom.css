@@ -20,14 +20,14 @@ nav ul li a,
 nav ul li a:visited,
 nav ul li a:active  {
   font-size: 14px;
-  color: #555;
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
 }
 
 nav ul li a:hover,
 nav ul li a:focus {
-  color: #222;
+  color: #003fff;
 }
 
 li {
@@ -154,7 +154,7 @@ li {
 }
 
 table{
-  background:#fff;
+  background:#000;
   border-collapse:collapse;
   margin:5px 0 10px;
 
