@@ -52,10 +52,10 @@
 /* #Basic Styles
 ================================================== */
 	body {
-		background: #000000;
+		background: #fff;
 		font: 13px menlo, monospace;
     line-height: 1.5;
-		color: #e2e2e2;
+		color: #0c0c0c;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
  }
@@ -64,7 +64,7 @@
 /* #Typography
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #000;
 		font-family: menlo, monospace;
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -74,18 +74,18 @@
 	h4 { font-size: 16px; line-height: 30px; margin-bottom: 4px; }
 	h5 { font-size: 14px; line-height: 24px; margin-bottom: 4px; }
 	h6 { font-size: 12px; line-height: 21px; }
-	.subheader { color: #e2e2e2; }
+	.subheader { color: #0c0c0c; }
 
 	p { margin: 0 0 20px 0; }
 	p img { margin: 0; }
-	p.lead { font-size: 21px; line-height: 27px; color: #e2e2e2;  }
+	p.lead { font-size: 21px; line-height: 27px; color: #0c0c0c;  }
 
 	em { font-style: italic; }
-	strong { font-weight: bold; color: #fff; }
+	strong { font-weight: bold; color: #000; }
 	small { font-size: 80%; }
 
 /*	Blockquotes  */
-	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #e2e2e2; font-style: italic; }
+	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #0c0c0c; font-style: italic; }
 	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
 	blockquote cite { display: block; font-size: 12px; color: #555; }
 	blockquote cite:before { content: "\2014 \0020"; }
@@ -96,7 +96,7 @@
 
 /* #Links
 ================================================== */
-	a, a:visited { color: #fff; text-decoration: underline; outline: 0; }
+	a, a:visited { color: #000; text-decoration: underline; outline: 0; }
 	a:hover, a:focus { color: #003fff; }
 	p a, p a:visited { line-height: inherit; }
 

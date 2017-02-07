@@ -2,6 +2,13 @@
   padding-top: 60px;
 }
 
+::selection {
+  background: #89a6ff;
+}
+::-moz-selection {
+  background: #89a6ff;
+}
+
 nav {
   position: fixed;
   width: 160px; 
@@ -20,7 +27,7 @@ nav ul li a,
 nav ul li a:visited,
 nav ul li a:active  {
   font-size: 14px;
-  color: #fff;
+  color: #000;
   text-decoration: none;
   font-weight: bold;
 }
@@ -154,7 +161,7 @@ li {
 }
 
 table{
-  background:#000;
+  background:#fff;
   border-collapse:collapse;
   margin:5px 0 10px;
 
