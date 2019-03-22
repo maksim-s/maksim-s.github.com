@@ -5,6 +5,15 @@ description: Bookshelf
 ---
 
 <p>Below is a log of books that I've read in the last couple of years. *some of them contain my notes and highlights.</p>
+<h4>2019</h4>
+<ul>
+  {% assign items = site.posts | sort: 'book_rating' %}
+  {% for post in items reversed %}
+    {% if post.category contains 'book' and post.book_read_year == 2019 %}
+      {% include_relative book.html %}
+    {% endif %}
+  {% endfor %}
+</ul>
 <h4>2018</h4>
 <ul>
   {% assign items = site.posts | sort: 'book_rating' %}

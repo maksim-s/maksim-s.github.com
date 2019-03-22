@@ -9,7 +9,7 @@ book_title: ""
 book_author: ""
 book_rating: 
 book_link: ""
-book_read_year: 2018
+book_read_year: 2019
 book_image: ".jpg"
 
 ---
