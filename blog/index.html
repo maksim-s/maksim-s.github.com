@@ -1,29 +1,28 @@
 ---
 layout: default
 title: Blog
-description: "Blog"
+description: 'Blog'
 ---
 
 <h4>Posts</h4>
 <ul>
-  {% for post in site.posts %}
-    {% if post.category contains 'blog' %}
-      <li>
-        <a href='{{ post.url }}'>{{ post.title }}</a> - {{ post.date | date: '%B %d, %Y' }}
-      </li>
-    {% endif %}
-  {% endfor %}
+  {% for post in site.posts %} {% if post.category contains 'blog' %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: '%B %d,
+    %Y' }}
+  </li>
+  {% endif %} {% endfor %}
 </ul>
 
 <h4>Book Notes</h4>
 <ul>
-  {% for post in site.posts %}
-    {% if post.category contains 'book' and post.book_notes == true %}
-        <li>
-          <a href='{{ post.url }}'>
-            {{ post.book_title }}
-          </a> - {{ post.date | date: '%B %d, %Y' }}
-        </li>
-    {% endif %}
-  {% endfor %}
+  {% for post in site.posts %} {% if post.category contains 'book' and
+  post.book_notes == true %}
+  <li>
+    <a href="{{ post.url }}">
+      {{ post.book_title }}
+    </a>
+    - {{ post.date | date: '%B %d, %Y' }}
+  </li>
+  {% endif %} {% endfor %}
 </ul>
