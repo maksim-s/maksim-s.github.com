@@ -5,6 +5,39 @@ title: Bookshelf
 
 Below is a list of books that I've read in the last couple of years. Some of them link to my notes and highlights. Every year's list is roughly ordered by how much I liked the books. My all time favorites are bolded.
 
+#### 2020
+- **The Beginning of Infinity: Explanations That Transform the World** by David Deutsch
+- **Master of the Senate: The Years of Lyndon Johnson** by Robert A. Caro
+- **The Passage of Power: The Years of Lyndon Johnson** by Robert A. Caro
+- **Means of Ascent: The Years of Lyndon Johnson** by Robert A. Caro
+- **Skunk Works: A Personal Memoir of My Years of Lockheed** by Ben R. Rich
+- **The Art of Learning** by Joshua Waitzkin
+- The Wright Brothers by David McCullough
+- Faraday, Maxwell, and the Electromagnetic Field: How Two Men Revolutionized Physics by Nancy Forbes, Basil Mahon
+- (reread) Mindstorms: Children, Computers, And Powerful Ideas by Seymour A. Papert
+- (reread) Zen and the Art of Motorcycle Maintenance by Robert M. Pirsig
+- The Case Against Education by Bryan Caplan
+- How to Solve It: A New Aspect of Mathematical Method by George Polya
+- All I Want To Know Is Where I'm Going To Die So I'll Never Go There By Peter Bevelin
+- Poor Charlie's Almanack by Charlie Munger
+- The Diamond Age: Or, a Young Lady's Illustrated Primer by Neal Stephenson
+- The Ride of a Lifetime by Robert Iger
+- Disunited Nations by Peter Zeihan
+- A Mathematician's Apology by G.H. Hardy
+- Kochland: The Secret History of Koch Industries and Corporate Power in America by Christopher Leonard
+- Saudi, Inc.: The Arabian Kingdom's Pursuit of Profit and Power by Ellen R. Wald
+- How to Talk About Books You Haven't Read by Pierre Bayard
+- The Children's Machine: Rethinking School In The Age Of The Computer by Seymour A. Papert
+- 7 Powers: The Foundations of Business Strategy by Hamilton W. Helmer
+- Thinking in Systems: A Primer by Donella Meadows
+- No Rules Rules: Netflix and the Culture of Reinvention by Erin Meyer and Reed Hastings
+- Eleven Rings: The Soul of Success Book by Phil Jackson
+- That Will Never Work: The Birth of Netflix and the Amazing Life of an Idea by Marc Randolph
+- The Man Without a Face: The Unlikely Rise of Vladimir Putin by Masha Gessen
+- Softwar: An Intimate Portrait of Larry Ellison and Oracle by Larry Ellison and Matthew Symonds
+- Alchemy: The Dark Art and Curious Science of Creating Magic in Brands, Business, and Life by Rory Sutherland
+- Unstoppable: My Life So Far by Maria Sharapova
+
 #### 2019
 
 - Dealers of Lightning: Xerox PARC and the Dawn of the Computer Age by Michael A. Hiltzik
